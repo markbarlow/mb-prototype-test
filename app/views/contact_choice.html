@@ -10,20 +10,19 @@
   <div class="grid-row">
     <div class="column-two-thirds">
 
-      <form action="/" method="post" class="form">
+      <form action="/contact_details" method="get" class="form">
 
         <h1 class="heading-xlarge">
           Radio buttons <br>
         </h1>
 
         <p>
-          This test page demonstrates selection-buttons.js from the govuk frontend toolkit, which
-          sets 'focused' and 'selected' states for the large hit area labels that wrap checkboxes and radio buttons.
+          Branching test. See routes.js for routing
         </p>
 
 
         <h2 class="heading-large">
-          Which part of the Housing Act was your licence isued under?
+          What do you want to get in touch about?
         </h2>
 
         <p>
@@ -38,18 +37,22 @@
             </legend>
 
             <label for="radio-part-2" class="block-label">
-              <input id="radio-part-2" type="radio" name="housing-act" value="Part 2">
+              <input id="radio-visa" type="radio" name="contactroute" value="visa">
               <span class="heading-small">Visas</span><br>
               Some text about visas needs a bit more to reach the full width of the one below
             </label>
 
             <label for="radio-part-3" class="block-label">
-              <input id="radio-part-3" type="radio" name="housing-act" value="Part 3">
+              <input id="radio-etd" type="radio" name="contactroute" value="etd">
               <span class="heading-small">Emergency travel document</span><br>
-              Some text about emergency travel documents or lost passports
+              Some text about emergency travel documents or lost passports and related problems
             </label>
 
           </fieldset>
+        </div>
+
+        <div class="form-group">
+          <input type="submit" class="button" value="Continue">
         </div>
 
       </form>

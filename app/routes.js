@@ -41,4 +41,32 @@ router.get('/examples/over-18', function (req, res) {
 
 // add your routes here
 
+
+// Branching contact us test
+
+router.get('/contact_details', function (req, res) {
+
+  // get the answer from the query string (eg. ?over18=false)
+  var contactroute = req.query.contactroute;
+
+  if (contactroute == "visa"){
+
+    // redirect to the relevant page
+    res.redirect("contact_visa");
+
+  } else {
+
+    // if over18 is any other value (or is missing) render the page requested
+    res.render('contact_details');
+
+  }
+
+});
+
+
+
+
+
+
+
 module.exports = router;
