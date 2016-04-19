@@ -1,0 +1,2211 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@2.14.7
+3 info using node@v4.2.2
+4 verbose readDependencies loading dependencies from C:\Users\Mark.Barlow\GitHub\mb-prototype-test\package.json
+5 verbose install where, deps [ 'C:\\Users\\Mark.Barlow\\GitHub\\mb-prototype-test',
+5 verbose install   [ 'basic-auth',
+5 verbose install     'basic-auth-connect',
+5 verbose install     'body-parser',
+5 verbose install     'consolidate',
+5 verbose install     'express',
+5 verbose install     'express-nunjucks',
+5 verbose install     'express-writer',
+5 verbose install     'govuk-elements-sass',
+5 verbose install     'govuk_frontend_toolkit',
+5 verbose install     'govuk_template_mustache',
+5 verbose install     'govuk_template_jinja',
+5 verbose install     'grunt',
+5 verbose install     'grunt-cli',
+5 verbose install     'grunt-concurrent',
+5 verbose install     'grunt-contrib-watch',
+5 verbose install     'grunt-nodemon',
+5 verbose install     'grunt-sass',
+5 verbose install     'grunt-sync',
+5 verbose install     'hogan.js',
+5 verbose install     'minimist',
+5 verbose install     'portscanner',
+5 verbose install     'prompt',
+5 verbose install     'readdir',
+5 verbose install     'serve-favicon' ] ]
+6 verbose install where, peers [ 'C:\\Users\\Mark.Barlow\\GitHub\\mb-prototype-test', [] ]
+7 verbose installManyTop reading for lifecycle C:\Users\Mark.Barlow\GitHub\mb-prototype-test\package.json
+8 info preinstall express-prototype@2.1.0
+9 verbose readDependencies loading dependencies from C:\Users\Mark.Barlow\GitHub\mb-prototype-test\package.json
+10 silly cache add args [ 'basic-auth-connect@^1.0.0', null ]
+11 verbose cache add spec basic-auth-connect@^1.0.0
+12 silly cache add parsed spec Result {
+12 silly cache add   raw: 'basic-auth-connect@^1.0.0',
+12 silly cache add   scope: null,
+12 silly cache add   name: 'basic-auth-connect',
+12 silly cache add   rawSpec: '^1.0.0',
+12 silly cache add   spec: '>=1.0.0 <2.0.0',
+12 silly cache add   type: 'range' }
+13 silly addNamed basic-auth-connect@>=1.0.0 <2.0.0
+14 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for basic-auth-connect
+15 silly addNameRange { name: 'basic-auth-connect',
+15 silly addNameRange   range: '>=1.0.0 <2.0.0',
+15 silly addNameRange   hasData: false }
+16 silly mapToRegistry name basic-auth-connect
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry uri https://registry.npmjs.org/basic-auth-connect
+20 verbose addNameRange registry:https://registry.npmjs.org/basic-auth-connect not in flight; fetching
+21 silly cache add args [ 'body-parser@^1.14.1', null ]
+22 verbose cache add spec body-parser@^1.14.1
+23 silly cache add parsed spec Result {
+23 silly cache add   raw: 'body-parser@^1.14.1',
+23 silly cache add   scope: null,
+23 silly cache add   name: 'body-parser',
+23 silly cache add   rawSpec: '^1.14.1',
+23 silly cache add   spec: '>=1.14.1 <2.0.0',
+23 silly cache add   type: 'range' }
+24 silly addNamed body-parser@>=1.14.1 <2.0.0
+25 verbose addNamed ">=1.14.1 <2.0.0" is a valid semver range for body-parser
+26 silly addNameRange { name: 'body-parser', range: '>=1.14.1 <2.0.0', hasData: false }
+27 silly mapToRegistry name body-parser
+28 silly mapToRegistry using default registry
+29 silly mapToRegistry registry https://registry.npmjs.org/
+30 silly mapToRegistry uri https://registry.npmjs.org/body-parser
+31 verbose addNameRange registry:https://registry.npmjs.org/body-parser not in flight; fetching
+32 silly cache add args [ 'consolidate@0.x', null ]
+33 verbose cache add spec consolidate@0.x
+34 silly cache add parsed spec Result {
+34 silly cache add   raw: 'consolidate@0.x',
+34 silly cache add   scope: null,
+34 silly cache add   name: 'consolidate',
+34 silly cache add   rawSpec: '0.x',
+34 silly cache add   spec: '>=0.0.0 <1.0.0',
+34 silly cache add   type: 'range' }
+35 silly addNamed consolidate@>=0.0.0 <1.0.0
+36 verbose addNamed ">=0.0.0 <1.0.0" is a valid semver range for consolidate
+37 silly addNameRange { name: 'consolidate', range: '>=0.0.0 <1.0.0', hasData: false }
+38 silly mapToRegistry name consolidate
+39 silly mapToRegistry using default registry
+40 silly mapToRegistry registry https://registry.npmjs.org/
+41 silly mapToRegistry uri https://registry.npmjs.org/consolidate
+42 verbose addNameRange registry:https://registry.npmjs.org/consolidate not in flight; fetching
+43 silly cache add args [ 'express@4.13.3', null ]
+44 verbose cache add spec express@4.13.3
+45 silly cache add parsed spec Result {
+45 silly cache add   raw: 'express@4.13.3',
+45 silly cache add   scope: null,
+45 silly cache add   name: 'express',
+45 silly cache add   rawSpec: '4.13.3',
+45 silly cache add   spec: '4.13.3',
+45 silly cache add   type: 'version' }
+46 silly addNamed express@4.13.3
+47 verbose addNamed "4.13.3" is a plain semver version for express
+48 silly mapToRegistry name express
+49 silly mapToRegistry using default registry
+50 silly mapToRegistry registry https://registry.npmjs.org/
+51 silly mapToRegistry uri https://registry.npmjs.org/express
+52 verbose addNameVersion registry:https://registry.npmjs.org/express not in flight; fetching
+53 silly cache add args [ 'express-nunjucks@^0.9.3', null ]
+54 verbose cache add spec express-nunjucks@^0.9.3
+55 silly cache add parsed spec Result {
+55 silly cache add   raw: 'express-nunjucks@^0.9.3',
+55 silly cache add   scope: null,
+55 silly cache add   name: 'express-nunjucks',
+55 silly cache add   rawSpec: '^0.9.3',
+55 silly cache add   spec: '>=0.9.3 <0.10.0',
+55 silly cache add   type: 'range' }
+56 silly addNamed express-nunjucks@>=0.9.3 <0.10.0
+57 verbose addNamed ">=0.9.3 <0.10.0" is a valid semver range for express-nunjucks
+58 silly addNameRange { name: 'express-nunjucks',
+58 silly addNameRange   range: '>=0.9.3 <0.10.0',
+58 silly addNameRange   hasData: false }
+59 silly mapToRegistry name express-nunjucks
+60 silly mapToRegistry using default registry
+61 silly mapToRegistry registry https://registry.npmjs.org/
+62 silly mapToRegistry uri https://registry.npmjs.org/express-nunjucks
+63 verbose addNameRange registry:https://registry.npmjs.org/express-nunjucks not in flight; fetching
+64 silly cache add args [ 'express-writer@0.0.4', null ]
+65 verbose cache add spec express-writer@0.0.4
+66 silly cache add parsed spec Result {
+66 silly cache add   raw: 'express-writer@0.0.4',
+66 silly cache add   scope: null,
+66 silly cache add   name: 'express-writer',
+66 silly cache add   rawSpec: '0.0.4',
+66 silly cache add   spec: '0.0.4',
+66 silly cache add   type: 'version' }
+67 silly addNamed express-writer@0.0.4
+68 verbose addNamed "0.0.4" is a plain semver version for express-writer
+69 silly mapToRegistry name express-writer
+70 silly mapToRegistry using default registry
+71 silly mapToRegistry registry https://registry.npmjs.org/
+72 silly mapToRegistry uri https://registry.npmjs.org/express-writer
+73 verbose addNameVersion registry:https://registry.npmjs.org/express-writer not in flight; fetching
+74 silly cache add args [ 'govuk-elements-sass@github:alphagov/govuk_elements#v1.1.1',
+74 silly cache add   null ]
+75 verbose cache add spec govuk-elements-sass@github:alphagov/govuk_elements#v1.1.1
+76 silly cache add args [ 'govuk_frontend_toolkit@^4.6.0', null ]
+77 verbose cache add spec govuk_frontend_toolkit@^4.6.0
+78 silly cache add parsed spec Result {
+78 silly cache add   raw: 'govuk_frontend_toolkit@^4.6.0',
+78 silly cache add   scope: null,
+78 silly cache add   name: 'govuk_frontend_toolkit',
+78 silly cache add   rawSpec: '^4.6.0',
+78 silly cache add   spec: '>=4.6.0 <5.0.0',
+78 silly cache add   type: 'range' }
+79 silly addNamed govuk_frontend_toolkit@>=4.6.0 <5.0.0
+80 verbose addNamed ">=4.6.0 <5.0.0" is a valid semver range for govuk_frontend_toolkit
+81 silly addNameRange { name: 'govuk_frontend_toolkit',
+81 silly addNameRange   range: '>=4.6.0 <5.0.0',
+81 silly addNameRange   hasData: false }
+82 silly mapToRegistry name govuk_frontend_toolkit
+83 silly mapToRegistry using default registry
+84 silly mapToRegistry registry https://registry.npmjs.org/
+85 silly mapToRegistry uri https://registry.npmjs.org/govuk_frontend_toolkit
+86 verbose addNameRange registry:https://registry.npmjs.org/govuk_frontend_toolkit not in flight; fetching
+87 silly cache add args [ 'govuk_template_mustache@^0.16.4', null ]
+88 verbose cache add spec govuk_template_mustache@^0.16.4
+89 silly cache add parsed spec Result {
+89 silly cache add   raw: 'govuk_template_mustache@^0.16.4',
+89 silly cache add   scope: null,
+89 silly cache add   name: 'govuk_template_mustache',
+89 silly cache add   rawSpec: '^0.16.4',
+89 silly cache add   spec: '>=0.16.4 <0.17.0',
+89 silly cache add   type: 'range' }
+90 silly addNamed govuk_template_mustache@>=0.16.4 <0.17.0
+91 verbose addNamed ">=0.16.4 <0.17.0" is a valid semver range for govuk_template_mustache
+92 silly addNameRange { name: 'govuk_template_mustache',
+92 silly addNameRange   range: '>=0.16.4 <0.17.0',
+92 silly addNameRange   hasData: false }
+93 silly mapToRegistry name govuk_template_mustache
+94 silly mapToRegistry using default registry
+95 silly mapToRegistry registry https://registry.npmjs.org/
+96 silly mapToRegistry uri https://registry.npmjs.org/govuk_template_mustache
+97 verbose addNameRange registry:https://registry.npmjs.org/govuk_template_mustache not in flight; fetching
+98 silly cache add args [ 'govuk_template_jinja@https://github.com/alphagov/govuk_template/releases/download/v0.16.4/jinja_govuk_template-0.16.4.tgz',
+98 silly cache add   null ]
+99 verbose cache add spec govuk_template_jinja@https://github.com/alphagov/govuk_template/releases/download/v0.16.4/jinja_govuk_template-0.16.4.tgz
+100 silly cache add args [ 'grunt@0.4.5', null ]
+101 verbose cache add spec grunt@0.4.5
+102 silly cache add parsed spec Result {
+102 silly cache add   raw: 'grunt@0.4.5',
+102 silly cache add   scope: null,
+102 silly cache add   name: 'grunt',
+102 silly cache add   rawSpec: '0.4.5',
+102 silly cache add   spec: '0.4.5',
+102 silly cache add   type: 'version' }
+103 silly addNamed grunt@0.4.5
+104 verbose addNamed "0.4.5" is a plain semver version for grunt
+105 silly mapToRegistry name grunt
+106 silly mapToRegistry using default registry
+107 silly mapToRegistry registry https://registry.npmjs.org/
+108 silly mapToRegistry uri https://registry.npmjs.org/grunt
+109 verbose addNameVersion registry:https://registry.npmjs.org/grunt not in flight; fetching
+110 silly cache add args [ 'grunt-cli@0.1.13', null ]
+111 verbose cache add spec grunt-cli@0.1.13
+112 silly cache add parsed spec Result {
+112 silly cache add   raw: 'grunt-cli@0.1.13',
+112 silly cache add   scope: null,
+112 silly cache add   name: 'grunt-cli',
+112 silly cache add   rawSpec: '0.1.13',
+112 silly cache add   spec: '0.1.13',
+112 silly cache add   type: 'version' }
+113 silly addNamed grunt-cli@0.1.13
+114 verbose addNamed "0.1.13" is a plain semver version for grunt-cli
+115 silly mapToRegistry name grunt-cli
+116 silly mapToRegistry using default registry
+117 silly mapToRegistry registry https://registry.npmjs.org/
+118 silly mapToRegistry uri https://registry.npmjs.org/grunt-cli
+119 verbose addNameVersion registry:https://registry.npmjs.org/grunt-cli not in flight; fetching
+120 silly cache add args [ 'grunt-concurrent@0.4.3', null ]
+121 verbose cache add spec grunt-concurrent@0.4.3
+122 silly cache add parsed spec Result {
+122 silly cache add   raw: 'grunt-concurrent@0.4.3',
+122 silly cache add   scope: null,
+122 silly cache add   name: 'grunt-concurrent',
+122 silly cache add   rawSpec: '0.4.3',
+122 silly cache add   spec: '0.4.3',
+122 silly cache add   type: 'version' }
+123 silly addNamed grunt-concurrent@0.4.3
+124 verbose addNamed "0.4.3" is a plain semver version for grunt-concurrent
+125 silly mapToRegistry name grunt-concurrent
+126 silly mapToRegistry using default registry
+127 silly mapToRegistry registry https://registry.npmjs.org/
+128 silly mapToRegistry uri https://registry.npmjs.org/grunt-concurrent
+129 verbose addNameVersion registry:https://registry.npmjs.org/grunt-concurrent not in flight; fetching
+130 silly cache add args [ 'grunt-contrib-watch@0.5.3', null ]
+131 verbose cache add spec grunt-contrib-watch@0.5.3
+132 silly cache add parsed spec Result {
+132 silly cache add   raw: 'grunt-contrib-watch@0.5.3',
+132 silly cache add   scope: null,
+132 silly cache add   name: 'grunt-contrib-watch',
+132 silly cache add   rawSpec: '0.5.3',
+132 silly cache add   spec: '0.5.3',
+132 silly cache add   type: 'version' }
+133 silly addNamed grunt-contrib-watch@0.5.3
+134 verbose addNamed "0.5.3" is a plain semver version for grunt-contrib-watch
+135 silly mapToRegistry name grunt-contrib-watch
+136 silly mapToRegistry using default registry
+137 silly mapToRegistry registry https://registry.npmjs.org/
+138 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-watch
+139 verbose addNameVersion registry:https://registry.npmjs.org/grunt-contrib-watch not in flight; fetching
+140 silly cache add args [ 'grunt-nodemon@0.4.0', null ]
+141 verbose cache add spec grunt-nodemon@0.4.0
+142 silly cache add parsed spec Result {
+142 silly cache add   raw: 'grunt-nodemon@0.4.0',
+142 silly cache add   scope: null,
+142 silly cache add   name: 'grunt-nodemon',
+142 silly cache add   rawSpec: '0.4.0',
+142 silly cache add   spec: '0.4.0',
+142 silly cache add   type: 'version' }
+143 silly addNamed grunt-nodemon@0.4.0
+144 verbose addNamed "0.4.0" is a plain semver version for grunt-nodemon
+145 silly mapToRegistry name grunt-nodemon
+146 silly mapToRegistry using default registry
+147 silly mapToRegistry registry https://registry.npmjs.org/
+148 silly mapToRegistry uri https://registry.npmjs.org/grunt-nodemon
+149 verbose addNameVersion registry:https://registry.npmjs.org/grunt-nodemon not in flight; fetching
+150 silly cache add args [ 'grunt-sass@^1.1.0', null ]
+151 verbose cache add spec grunt-sass@^1.1.0
+152 silly cache add parsed spec Result {
+152 silly cache add   raw: 'grunt-sass@^1.1.0',
+152 silly cache add   scope: null,
+152 silly cache add   name: 'grunt-sass',
+152 silly cache add   rawSpec: '^1.1.0',
+152 silly cache add   spec: '>=1.1.0 <2.0.0',
+152 silly cache add   type: 'range' }
+153 silly addNamed grunt-sass@>=1.1.0 <2.0.0
+154 verbose addNamed ">=1.1.0 <2.0.0" is a valid semver range for grunt-sass
+155 silly addNameRange { name: 'grunt-sass', range: '>=1.1.0 <2.0.0', hasData: false }
+156 silly mapToRegistry name grunt-sass
+157 silly mapToRegistry using default registry
+158 silly mapToRegistry registry https://registry.npmjs.org/
+159 silly mapToRegistry uri https://registry.npmjs.org/grunt-sass
+160 verbose addNameRange registry:https://registry.npmjs.org/grunt-sass not in flight; fetching
+161 silly cache add args [ 'grunt-sync@^0.5.1', null ]
+162 verbose cache add spec grunt-sync@^0.5.1
+163 silly cache add parsed spec Result {
+163 silly cache add   raw: 'grunt-sync@^0.5.1',
+163 silly cache add   scope: null,
+163 silly cache add   name: 'grunt-sync',
+163 silly cache add   rawSpec: '^0.5.1',
+163 silly cache add   spec: '>=0.5.1 <0.6.0',
+163 silly cache add   type: 'range' }
+164 silly addNamed grunt-sync@>=0.5.1 <0.6.0
+165 verbose addNamed ">=0.5.1 <0.6.0" is a valid semver range for grunt-sync
+166 silly addNameRange { name: 'grunt-sync', range: '>=0.5.1 <0.6.0', hasData: false }
+167 silly mapToRegistry name grunt-sync
+168 silly mapToRegistry using default registry
+169 silly mapToRegistry registry https://registry.npmjs.org/
+170 silly mapToRegistry uri https://registry.npmjs.org/grunt-sync
+171 verbose addNameRange registry:https://registry.npmjs.org/grunt-sync not in flight; fetching
+172 silly cache add args [ 'hogan.js@3.0.2', null ]
+173 verbose cache add spec hogan.js@3.0.2
+174 silly cache add parsed spec Result {
+174 silly cache add   raw: 'hogan.js@3.0.2',
+174 silly cache add   scope: null,
+174 silly cache add   name: 'hogan.js',
+174 silly cache add   rawSpec: '3.0.2',
+174 silly cache add   spec: '3.0.2',
+174 silly cache add   type: 'version' }
+175 silly addNamed hogan.js@3.0.2
+176 verbose addNamed "3.0.2" is a plain semver version for hogan.js
+177 silly mapToRegistry name hogan.js
+178 silly mapToRegistry using default registry
+179 silly mapToRegistry registry https://registry.npmjs.org/
+180 silly mapToRegistry uri https://registry.npmjs.org/hogan.js
+181 verbose addNameVersion registry:https://registry.npmjs.org/hogan.js not in flight; fetching
+182 silly cache add args [ 'minimist@0.0.8', null ]
+183 verbose cache add spec minimist@0.0.8
+184 silly cache add parsed spec Result {
+184 silly cache add   raw: 'minimist@0.0.8',
+184 silly cache add   scope: null,
+184 silly cache add   name: 'minimist',
+184 silly cache add   rawSpec: '0.0.8',
+184 silly cache add   spec: '0.0.8',
+184 silly cache add   type: 'version' }
+185 silly addNamed minimist@0.0.8
+186 verbose addNamed "0.0.8" is a plain semver version for minimist
+187 silly mapToRegistry name minimist
+188 silly mapToRegistry using default registry
+189 silly mapToRegistry registry https://registry.npmjs.org/
+190 silly mapToRegistry uri https://registry.npmjs.org/minimist
+191 verbose addNameVersion registry:https://registry.npmjs.org/minimist not in flight; fetching
+192 silly cache add args [ 'portscanner@^1.0.0', null ]
+193 verbose cache add spec portscanner@^1.0.0
+194 silly cache add parsed spec Result {
+194 silly cache add   raw: 'portscanner@^1.0.0',
+194 silly cache add   scope: null,
+194 silly cache add   name: 'portscanner',
+194 silly cache add   rawSpec: '^1.0.0',
+194 silly cache add   spec: '>=1.0.0 <2.0.0',
+194 silly cache add   type: 'range' }
+195 silly addNamed portscanner@>=1.0.0 <2.0.0
+196 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for portscanner
+197 silly addNameRange { name: 'portscanner', range: '>=1.0.0 <2.0.0', hasData: false }
+198 silly mapToRegistry name portscanner
+199 silly mapToRegistry using default registry
+200 silly mapToRegistry registry https://registry.npmjs.org/
+201 silly mapToRegistry uri https://registry.npmjs.org/portscanner
+202 verbose addNameRange registry:https://registry.npmjs.org/portscanner not in flight; fetching
+203 silly cache add args [ 'prompt@^0.2.14', null ]
+204 verbose cache add spec prompt@^0.2.14
+205 silly cache add parsed spec Result {
+205 silly cache add   raw: 'prompt@^0.2.14',
+205 silly cache add   scope: null,
+205 silly cache add   name: 'prompt',
+205 silly cache add   rawSpec: '^0.2.14',
+205 silly cache add   spec: '>=0.2.14 <0.3.0',
+205 silly cache add   type: 'range' }
+206 silly addNamed prompt@>=0.2.14 <0.3.0
+207 verbose addNamed ">=0.2.14 <0.3.0" is a valid semver range for prompt
+208 silly addNameRange { name: 'prompt', range: '>=0.2.14 <0.3.0', hasData: false }
+209 silly mapToRegistry name prompt
+210 silly mapToRegistry using default registry
+211 silly mapToRegistry registry https://registry.npmjs.org/
+212 silly mapToRegistry uri https://registry.npmjs.org/prompt
+213 verbose addNameRange registry:https://registry.npmjs.org/prompt not in flight; fetching
+214 silly cache add args [ 'readdir@0.0.6', null ]
+215 verbose cache add spec readdir@0.0.6
+216 silly cache add parsed spec Result {
+216 silly cache add   raw: 'readdir@0.0.6',
+216 silly cache add   scope: null,
+216 silly cache add   name: 'readdir',
+216 silly cache add   rawSpec: '0.0.6',
+216 silly cache add   spec: '0.0.6',
+216 silly cache add   type: 'version' }
+217 silly addNamed readdir@0.0.6
+218 verbose addNamed "0.0.6" is a plain semver version for readdir
+219 silly mapToRegistry name readdir
+220 silly mapToRegistry using default registry
+221 silly mapToRegistry registry https://registry.npmjs.org/
+222 silly mapToRegistry uri https://registry.npmjs.org/readdir
+223 verbose addNameVersion registry:https://registry.npmjs.org/readdir not in flight; fetching
+224 silly cache add args [ 'serve-favicon@2.3.0', null ]
+225 verbose cache add spec serve-favicon@2.3.0
+226 silly cache add parsed spec Result {
+226 silly cache add   raw: 'serve-favicon@2.3.0',
+226 silly cache add   scope: null,
+226 silly cache add   name: 'serve-favicon',
+226 silly cache add   rawSpec: '2.3.0',
+226 silly cache add   spec: '2.3.0',
+226 silly cache add   type: 'version' }
+227 silly addNamed serve-favicon@2.3.0
+228 verbose addNamed "2.3.0" is a plain semver version for serve-favicon
+229 silly mapToRegistry name serve-favicon
+230 silly mapToRegistry using default registry
+231 silly mapToRegistry registry https://registry.npmjs.org/
+232 silly mapToRegistry uri https://registry.npmjs.org/serve-favicon
+233 verbose addNameVersion registry:https://registry.npmjs.org/serve-favicon not in flight; fetching
+234 silly cache add args [ 'basic-auth@^1.0.3', null ]
+235 verbose cache add spec basic-auth@^1.0.3
+236 silly cache add parsed spec Result {
+236 silly cache add   raw: 'basic-auth@^1.0.3',
+236 silly cache add   scope: null,
+236 silly cache add   name: 'basic-auth',
+236 silly cache add   rawSpec: '^1.0.3',
+236 silly cache add   spec: '>=1.0.3 <2.0.0',
+236 silly cache add   type: 'range' }
+237 silly addNamed basic-auth@>=1.0.3 <2.0.0
+238 verbose addNamed ">=1.0.3 <2.0.0" is a valid semver range for basic-auth
+239 silly addNameRange { name: 'basic-auth', range: '>=1.0.3 <2.0.0', hasData: false }
+240 silly mapToRegistry name basic-auth
+241 silly mapToRegistry using default registry
+242 silly mapToRegistry registry https://registry.npmjs.org/
+243 silly mapToRegistry uri https://registry.npmjs.org/basic-auth
+244 verbose addNameRange registry:https://registry.npmjs.org/basic-auth not in flight; fetching
+245 verbose request uri https://registry.npmjs.org/basic-auth-connect
+246 verbose request no auth needed
+247 info attempt registry request try #1 at 11:32:38 AM
+248 verbose request id dee048c104061d36
+249 http request GET https://registry.npmjs.org/basic-auth-connect
+250 verbose request uri https://registry.npmjs.org/body-parser
+251 verbose request no auth needed
+252 info attempt registry request try #1 at 11:32:38 AM
+253 http request GET https://registry.npmjs.org/body-parser
+254 verbose request uri https://registry.npmjs.org/consolidate
+255 verbose request no auth needed
+256 info attempt registry request try #1 at 11:32:38 AM
+257 http request GET https://registry.npmjs.org/consolidate
+258 verbose request uri https://registry.npmjs.org/express
+259 verbose request no auth needed
+260 info attempt registry request try #1 at 11:32:38 AM
+261 http request GET https://registry.npmjs.org/express
+262 verbose request uri https://registry.npmjs.org/express-nunjucks
+263 verbose request no auth needed
+264 info attempt registry request try #1 at 11:32:38 AM
+265 http request GET https://registry.npmjs.org/express-nunjucks
+266 verbose request uri https://registry.npmjs.org/express-writer
+267 verbose request no auth needed
+268 info attempt registry request try #1 at 11:32:38 AM
+269 http request GET https://registry.npmjs.org/express-writer
+270 silly cache add parsed spec Result {
+270 silly cache add   raw: 'govuk-elements-sass@github:alphagov/govuk_elements#v1.1.1',
+270 silly cache add   scope: null,
+270 silly cache add   name: 'govuk-elements-sass',
+270 silly cache add   rawSpec: 'github:alphagov/govuk_elements#v1.1.1',
+270 silly cache add   spec: 'github:alphagov/govuk_elements#v1.1.1',
+270 silly cache add   type: 'hosted',
+270 silly cache add   hosted:
+270 silly cache add    { type: 'github',
+270 silly cache add      ssh: 'git@github.com:alphagov/govuk_elements.git#v1.1.1',
+270 silly cache add      sshUrl: 'git+ssh://git@github.com/alphagov/govuk_elements.git#v1.1.1',
+270 silly cache add      httpsUrl: 'git+https://github.com/alphagov/govuk_elements.git#v1.1.1',
+270 silly cache add      gitUrl: 'git://github.com/alphagov/govuk_elements.git#v1.1.1',
+270 silly cache add      shortcut: 'github:alphagov/govuk_elements#v1.1.1',
+270 silly cache add      directUrl: 'https://raw.githubusercontent.com/alphagov/govuk_elements/v1.1.1/package.json' } }
+271 verbose addRemoteGit caching github:alphagov/govuk_elements#v1.1.1
+272 verbose addRemoteGit alphagov/govuk_elements#v1.1.1 is a repository hosted by github
+273 silly tryGitProto attempting to clone git://github.com/alphagov/govuk_elements.git#v1.1.1
+274 silly tryClone cloning alphagov/govuk_elements#v1.1.1 via git://github.com/alphagov/govuk_elements.git#v1.1.1
+275 verbose tryClone git-github-com-alphagov-govuk-elements-git-703cb2a8 not in flight; caching
+276 verbose request uri https://registry.npmjs.org/govuk_frontend_toolkit
+277 verbose request no auth needed
+278 info attempt registry request try #1 at 11:32:38 AM
+279 http request GET https://registry.npmjs.org/govuk_frontend_toolkit
+280 verbose request uri https://registry.npmjs.org/govuk_template_mustache
+281 verbose request no auth needed
+282 info attempt registry request try #1 at 11:32:38 AM
+283 http request GET https://registry.npmjs.org/govuk_template_mustache
+284 silly cache add parsed spec Result {
+284 silly cache add   raw: 'govuk_template_jinja@https://github.com/alphagov/govuk_template/releases/download/v0.16.4/jinja_govuk_template-0.16.4.tgz',
+284 silly cache add   scope: null,
+284 silly cache add   name: 'govuk_template_jinja',
+284 silly cache add   rawSpec: 'https://github.com/alphagov/govuk_template/releases/download/v0.16.4/jinja_govuk_template-0.16.4.tgz',
+284 silly cache add   spec: 'https://github.com/alphagov/govuk_template/releases/download/v0.16.4/jinja_govuk_template-0.16.4.tgz',
+284 silly cache add   type: 'remote' }
+285 silly mapToRegistry name govuk_template_jinja@https://github.com/alphagov/govuk_template/releases/download/v0.16.4/jinja_govuk_template-0.16.4.tgz
+286 silly mapToRegistry using default registry
+287 silly mapToRegistry registry https://registry.npmjs.org/
+288 silly mapToRegistry uri https://registry.npmjs.org/govuk_template_jinja@https://github.com/alphagov/govuk_template/releases/download/v0.16.4/jinja_govuk_template-0.16.4.tgz
+289 verbose addRemoteTarball https://github.com/alphagov/govuk_template/releases/download/v0.16.4/jinja_govuk_template-0.16.4.tgz not in flight; adding
+290 verbose addRemoteTarball [ 'https://github.com/alphagov/govuk_template/releases/download/v0.16.4/jinja_govuk_template-0.16.4.tgz',
+290 verbose addRemoteTarball   null ]
+291 verbose request uri https://registry.npmjs.org/grunt
+292 verbose request no auth needed
+293 info attempt registry request try #1 at 11:32:38 AM
+294 http request GET https://registry.npmjs.org/grunt
+295 verbose request uri https://registry.npmjs.org/grunt-cli
+296 verbose request no auth needed
+297 info attempt registry request try #1 at 11:32:38 AM
+298 http request GET https://registry.npmjs.org/grunt-cli
+299 verbose request uri https://registry.npmjs.org/grunt-concurrent
+300 verbose request no auth needed
+301 info attempt registry request try #1 at 11:32:38 AM
+302 http request GET https://registry.npmjs.org/grunt-concurrent
+303 verbose request uri https://registry.npmjs.org/grunt-contrib-watch
+304 verbose request no auth needed
+305 info attempt registry request try #1 at 11:32:38 AM
+306 http request GET https://registry.npmjs.org/grunt-contrib-watch
+307 verbose request uri https://registry.npmjs.org/grunt-nodemon
+308 verbose request no auth needed
+309 info attempt registry request try #1 at 11:32:38 AM
+310 http request GET https://registry.npmjs.org/grunt-nodemon
+311 verbose request uri https://registry.npmjs.org/grunt-sass
+312 verbose request no auth needed
+313 info attempt registry request try #1 at 11:32:38 AM
+314 http request GET https://registry.npmjs.org/grunt-sass
+315 verbose request uri https://registry.npmjs.org/grunt-sync
+316 verbose request no auth needed
+317 info attempt registry request try #1 at 11:32:38 AM
+318 http request GET https://registry.npmjs.org/grunt-sync
+319 verbose request uri https://registry.npmjs.org/hogan.js
+320 verbose request no auth needed
+321 info attempt registry request try #1 at 11:32:38 AM
+322 http request GET https://registry.npmjs.org/hogan.js
+323 verbose request uri https://registry.npmjs.org/minimist
+324 verbose request no auth needed
+325 info attempt registry request try #1 at 11:32:38 AM
+326 http request GET https://registry.npmjs.org/minimist
+327 verbose request uri https://registry.npmjs.org/portscanner
+328 verbose request no auth needed
+329 info attempt registry request try #1 at 11:32:38 AM
+330 http request GET https://registry.npmjs.org/portscanner
+331 verbose request uri https://registry.npmjs.org/prompt
+332 verbose request no auth needed
+333 info attempt registry request try #1 at 11:32:38 AM
+334 http request GET https://registry.npmjs.org/prompt
+335 verbose request uri https://registry.npmjs.org/readdir
+336 verbose request no auth needed
+337 info attempt registry request try #1 at 11:32:38 AM
+338 http request GET https://registry.npmjs.org/readdir
+339 verbose request uri https://registry.npmjs.org/serve-favicon
+340 verbose request no auth needed
+341 info attempt registry request try #1 at 11:32:38 AM
+342 http request GET https://registry.npmjs.org/serve-favicon
+343 verbose request uri https://registry.npmjs.org/basic-auth
+344 verbose request no auth needed
+345 info attempt registry request try #1 at 11:32:38 AM
+346 http request GET https://registry.npmjs.org/basic-auth
+347 verbose makeDirectory \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\_git-remotes creation not in flight; initializing
+348 info retry fetch attempt 1 at 11:32:38 AM
+349 info attempt registry request try #1 at 11:32:38 AM
+350 http fetch GET https://github.com/alphagov/govuk_template/releases/download/v0.16.4/jinja_govuk_template-0.16.4.tgz
+351 verbose makeCacheDir UID & GID are irrelevant on win32
+352 http 200 https://registry.npmjs.org/basic-auth-connect
+353 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+353 verbose headers   etag: '"9QOPR6CT15FM73AVYSC7481YX"',
+353 verbose headers   'content-type': 'application/json',
+353 verbose headers   'cache-control': 'max-age=300',
+353 verbose headers   'content-length': '4095',
+353 verbose headers   'accept-ranges': 'bytes',
+353 verbose headers   date: 'Tue, 19 Apr 2016 10:32:38 GMT',
+353 verbose headers   via: '1.1 varnish',
+353 verbose headers   age: '243',
+353 verbose headers   connection: 'keep-alive',
+353 verbose headers   'x-served-by': 'cache-lhr6325-LHR',
+353 verbose headers   'x-cache': 'HIT',
+353 verbose headers   'x-cache-hits': '2',
+353 verbose headers   'x-timer': 'S1461061958.174046,VS0,VE0',
+353 verbose headers   vary: 'Accept-Encoding' }
+354 silly get cb [ 200,
+354 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+354 silly get     etag: '"9QOPR6CT15FM73AVYSC7481YX"',
+354 silly get     'content-type': 'application/json',
+354 silly get     'cache-control': 'max-age=300',
+354 silly get     'content-length': '4095',
+354 silly get     'accept-ranges': 'bytes',
+354 silly get     date: 'Tue, 19 Apr 2016 10:32:38 GMT',
+354 silly get     via: '1.1 varnish',
+354 silly get     age: '243',
+354 silly get     connection: 'keep-alive',
+354 silly get     'x-served-by': 'cache-lhr6325-LHR',
+354 silly get     'x-cache': 'HIT',
+354 silly get     'x-cache-hits': '2',
+354 silly get     'x-timer': 'S1461061958.174046,VS0,VE0',
+354 silly get     vary: 'Accept-Encoding' } ]
+355 verbose get saving basic-auth-connect to \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\registry.npmjs.org\basic-auth-connect\.cache.json
+356 http 200 https://registry.npmjs.org/consolidate
+357 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+357 verbose headers   etag: '"F4Z5QGLJFKPV1UFU7693W7L6B"',
+357 verbose headers   'content-type': 'application/json',
+357 verbose headers   'cache-control': 'max-age=300',
+357 verbose headers   'content-length': '34226',
+357 verbose headers   'accept-ranges': 'bytes',
+357 verbose headers   date: 'Tue, 19 Apr 2016 10:32:38 GMT',
+357 verbose headers   via: '1.1 varnish',
+357 verbose headers   age: '267',
+357 verbose headers   connection: 'keep-alive',
+357 verbose headers   'x-served-by': 'cache-lhr6325-LHR',
+357 verbose headers   'x-cache': 'HIT',
+357 verbose headers   'x-cache-hits': '1',
+357 verbose headers   'x-timer': 'S1461061958.173680,VS0,VE0',
+357 verbose headers   vary: 'Accept-Encoding' }
+358 silly get cb [ 200,
+358 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+358 silly get     etag: '"F4Z5QGLJFKPV1UFU7693W7L6B"',
+358 silly get     'content-type': 'application/json',
+358 silly get     'cache-control': 'max-age=300',
+358 silly get     'content-length': '34226',
+358 silly get     'accept-ranges': 'bytes',
+358 silly get     date: 'Tue, 19 Apr 2016 10:32:38 GMT',
+358 silly get     via: '1.1 varnish',
+358 silly get     age: '267',
+358 silly get     connection: 'keep-alive',
+358 silly get     'x-served-by': 'cache-lhr6325-LHR',
+358 silly get     'x-cache': 'HIT',
+358 silly get     'x-cache-hits': '1',
+358 silly get     'x-timer': 'S1461061958.173680,VS0,VE0',
+358 silly get     vary: 'Accept-Encoding' } ]
+359 verbose get saving consolidate to \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\registry.npmjs.org\consolidate\.cache.json
+360 http 200 https://registry.npmjs.org/portscanner
+361 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+361 verbose headers   etag: '"646JB0HG87UI8J9OY1FVJ946N"',
+361 verbose headers   'content-type': 'application/json',
+361 verbose headers   'cache-control': 'max-age=300',
+361 verbose headers   'content-length': '12423',
+361 verbose headers   'accept-ranges': 'bytes',
+361 verbose headers   date: 'Tue, 19 Apr 2016 10:32:38 GMT',
+361 verbose headers   via: '1.1 varnish',
+361 verbose headers   age: '211',
+361 verbose headers   connection: 'keep-alive',
+361 verbose headers   'x-served-by': 'cache-lhr6330-LHR',
+361 verbose headers   'x-cache': 'HIT',
+361 verbose headers   'x-cache-hits': '2',
+361 verbose headers   'x-timer': 'S1461061958.173946,VS0,VE0',
+361 verbose headers   vary: 'Accept-Encoding' }
+362 silly get cb [ 200,
+362 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+362 silly get     etag: '"646JB0HG87UI8J9OY1FVJ946N"',
+362 silly get     'content-type': 'application/json',
+362 silly get     'cache-control': 'max-age=300',
+362 silly get     'content-length': '12423',
+362 silly get     'accept-ranges': 'bytes',
+362 silly get     date: 'Tue, 19 Apr 2016 10:32:38 GMT',
+362 silly get     via: '1.1 varnish',
+362 silly get     age: '211',
+362 silly get     connection: 'keep-alive',
+362 silly get     'x-served-by': 'cache-lhr6330-LHR',
+362 silly get     'x-cache': 'HIT',
+362 silly get     'x-cache-hits': '2',
+362 silly get     'x-timer': 'S1461061958.173946,VS0,VE0',
+362 silly get     vary: 'Accept-Encoding' } ]
+363 verbose get saving portscanner to \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\registry.npmjs.org\portscanner\.cache.json
+364 http 200 https://registry.npmjs.org/grunt-concurrent
+365 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+365 verbose headers   etag: '"5BKCZA94Y4U3N8GSUN2W9793T"',
+365 verbose headers   'content-type': 'application/json',
+365 verbose headers   'cache-control': 'max-age=300',
+365 verbose headers   'content-length': '33067',
+365 verbose headers   'accept-ranges': 'bytes',
+365 verbose headers   date: 'Tue, 19 Apr 2016 10:32:38 GMT',
+365 verbose headers   via: '1.1 varnish',
+365 verbose headers   age: '117',
+365 verbose headers   connection: 'keep-alive',
+365 verbose headers   'x-served-by': 'cache-lhr6321-LHR',
+365 verbose headers   'x-cache': 'HIT',
+365 verbose headers   'x-cache-hits': '2',
+365 verbose headers   'x-timer': 'S1461061958.175873,VS0,VE0',
+365 verbose headers   vary: 'Accept-Encoding' }
+366 silly get cb [ 200,
+366 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+366 silly get     etag: '"5BKCZA94Y4U3N8GSUN2W9793T"',
+366 silly get     'content-type': 'application/json',
+366 silly get     'cache-control': 'max-age=300',
+366 silly get     'content-length': '33067',
+366 silly get     'accept-ranges': 'bytes',
+366 silly get     date: 'Tue, 19 Apr 2016 10:32:38 GMT',
+366 silly get     via: '1.1 varnish',
+366 silly get     age: '117',
+366 silly get     connection: 'keep-alive',
+366 silly get     'x-served-by': 'cache-lhr6321-LHR',
+366 silly get     'x-cache': 'HIT',
+366 silly get     'x-cache-hits': '2',
+366 silly get     'x-timer': 'S1461061958.175873,VS0,VE0',
+366 silly get     vary: 'Accept-Encoding' } ]
+367 verbose get saving grunt-concurrent to \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\registry.npmjs.org\grunt-concurrent\.cache.json
+368 http 200 https://registry.npmjs.org/serve-favicon
+369 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+369 verbose headers   etag: '"AKTC5CWWV7MFH9WRZ5VVSHQ99"',
+369 verbose headers   'content-type': 'application/json',
+369 verbose headers   'cache-control': 'max-age=300',
+369 verbose headers   'content-length': '24345',
+369 verbose headers   'accept-ranges': 'bytes',
+369 verbose headers   date: 'Tue, 19 Apr 2016 10:32:38 GMT',
+369 verbose headers   via: '1.1 varnish',
+369 verbose headers   age: '127',
+369 verbose headers   connection: 'keep-alive',
+369 verbose headers   'x-served-by': 'cache-lhr6330-LHR',
+369 verbose headers   'x-cache': 'HIT',
+369 verbose headers   'x-cache-hits': '1',
+369 verbose headers   'x-timer': 'S1461061958.177318,VS0,VE0',
+369 verbose headers   vary: 'Accept-Encoding' }
+370 silly get cb [ 200,
+370 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+370 silly get     etag: '"AKTC5CWWV7MFH9WRZ5VVSHQ99"',
+370 silly get     'content-type': 'application/json',
+370 silly get     'cache-control': 'max-age=300',
+370 silly get     'content-length': '24345',
+370 silly get     'accept-ranges': 'bytes',
+370 silly get     date: 'Tue, 19 Apr 2016 10:32:38 GMT',
+370 silly get     via: '1.1 varnish',
+370 silly get     age: '127',
+370 silly get     connection: 'keep-alive',
+370 silly get     'x-served-by': 'cache-lhr6330-LHR',
+370 silly get     'x-cache': 'HIT',
+370 silly get     'x-cache-hits': '1',
+370 silly get     'x-timer': 'S1461061958.177318,VS0,VE0',
+370 silly get     vary: 'Accept-Encoding' } ]
+371 verbose get saving serve-favicon to \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\registry.npmjs.org\serve-favicon\.cache.json
+372 http 200 https://registry.npmjs.org/basic-auth
+373 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+373 verbose headers   etag: '"C1YMFPHCUWL2ELC4JDM4BXZ8A"',
+373 verbose headers   'content-type': 'application/json',
+373 verbose headers   'cache-control': 'max-age=300',
+373 verbose headers   'content-length': '9327',
+373 verbose headers   'accept-ranges': 'bytes',
+373 verbose headers   date: 'Tue, 19 Apr 2016 10:32:38 GMT',
+373 verbose headers   via: '1.1 varnish',
+373 verbose headers   age: '15',
+373 verbose headers   connection: 'keep-alive',
+373 verbose headers   'x-served-by': 'cache-lhr6322-LHR',
+373 verbose headers   'x-cache': 'HIT',
+373 verbose headers   'x-cache-hits': '1',
+373 verbose headers   'x-timer': 'S1461061958.180162,VS0,VE0',
+373 verbose headers   vary: 'Accept-Encoding' }
+374 silly get cb [ 200,
+374 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+374 silly get     etag: '"C1YMFPHCUWL2ELC4JDM4BXZ8A"',
+374 silly get     'content-type': 'application/json',
+374 silly get     'cache-control': 'max-age=300',
+374 silly get     'content-length': '9327',
+374 silly get     'accept-ranges': 'bytes',
+374 silly get     date: 'Tue, 19 Apr 2016 10:32:38 GMT',
+374 silly get     via: '1.1 varnish',
+374 silly get     age: '15',
+374 silly get     connection: 'keep-alive',
+374 silly get     'x-served-by': 'cache-lhr6322-LHR',
+374 silly get     'x-cache': 'HIT',
+374 silly get     'x-cache-hits': '1',
+374 silly get     'x-timer': 'S1461061958.180162,VS0,VE0',
+374 silly get     vary: 'Accept-Encoding' } ]
+375 verbose get saving basic-auth to \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\registry.npmjs.org\basic-auth\.cache.json
+376 http 200 https://registry.npmjs.org/grunt-nodemon
+377 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+377 verbose headers   etag: '"2AO3BLWI4YKCSGP23KBTMDO4I"',
+377 verbose headers   'content-type': 'application/json',
+377 verbose headers   'content-encoding': 'gzip',
+377 verbose headers   'cache-control': 'max-age=300',
+377 verbose headers   'content-length': '6373',
+377 verbose headers   'accept-ranges': 'bytes',
+377 verbose headers   date: 'Tue, 19 Apr 2016 10:32:38 GMT',
+377 verbose headers   via: '1.1 varnish',
+377 verbose headers   age: '181',
+377 verbose headers   connection: 'keep-alive',
+377 verbose headers   'x-served-by': 'cache-lhr6332-LHR',
+377 verbose headers   'x-cache': 'HIT',
+377 verbose headers   'x-cache-hits': '1',
+377 verbose headers   'x-timer': 'S1461061958.175422,VS0,VE0',
+377 verbose headers   vary: 'Accept-Encoding' }
+378 silly get cb [ 200,
+378 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+378 silly get     etag: '"2AO3BLWI4YKCSGP23KBTMDO4I"',
+378 silly get     'content-type': 'application/json',
+378 silly get     'content-encoding': 'gzip',
+378 silly get     'cache-control': 'max-age=300',
+378 silly get     'content-length': '6373',
+378 silly get     'accept-ranges': 'bytes',
+378 silly get     date: 'Tue, 19 Apr 2016 10:32:38 GMT',
+378 silly get     via: '1.1 varnish',
+378 silly get     age: '181',
+378 silly get     connection: 'keep-alive',
+378 silly get     'x-served-by': 'cache-lhr6332-LHR',
+378 silly get     'x-cache': 'HIT',
+378 silly get     'x-cache-hits': '1',
+378 silly get     'x-timer': 'S1461061958.175422,VS0,VE0',
+378 silly get     vary: 'Accept-Encoding' } ]
+379 verbose get saving grunt-nodemon to \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\registry.npmjs.org\grunt-nodemon\.cache.json
+380 http 200 https://registry.npmjs.org/minimist
+381 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+381 verbose headers   etag: '"B7KO02LSG1LEH78I5V275QYWJ"',
+381 verbose headers   'content-type': 'application/json',
+381 verbose headers   'content-encoding': 'gzip',
+381 verbose headers   'cache-control': 'max-age=300',
+381 verbose headers   'content-length': '5441',
+381 verbose headers   'accept-ranges': 'bytes',
+381 verbose headers   date: 'Tue, 19 Apr 2016 10:32:38 GMT',
+381 verbose headers   via: '1.1 varnish',
+381 verbose headers   age: '7',
+381 verbose headers   connection: 'keep-alive',
+381 verbose headers   'x-served-by': 'cache-lhr6335-LHR',
+381 verbose headers   'x-cache': 'HIT',
+381 verbose headers   'x-cache-hits': '2',
+381 verbose headers   'x-timer': 'S1461061958.176295,VS0,VE0',
+381 verbose headers   vary: 'Accept-Encoding' }
+382 silly get cb [ 200,
+382 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+382 silly get     etag: '"B7KO02LSG1LEH78I5V275QYWJ"',
+382 silly get     'content-type': 'application/json',
+382 silly get     'content-encoding': 'gzip',
+382 silly get     'cache-control': 'max-age=300',
+382 silly get     'content-length': '5441',
+382 silly get     'accept-ranges': 'bytes',
+382 silly get     date: 'Tue, 19 Apr 2016 10:32:38 GMT',
+382 silly get     via: '1.1 varnish',
+382 silly get     age: '7',
+382 silly get     connection: 'keep-alive',
+382 silly get     'x-served-by': 'cache-lhr6335-LHR',
+382 silly get     'x-cache': 'HIT',
+382 silly get     'x-cache-hits': '2',
+382 silly get     'x-timer': 'S1461061958.176295,VS0,VE0',
+382 silly get     vary: 'Accept-Encoding' } ]
+383 verbose get saving minimist to \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\registry.npmjs.org\minimist\.cache.json
+384 http 200 https://registry.npmjs.org/grunt-cli
+385 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+385 verbose headers   etag: '"5S4MAT7BBHQAYFBG3C932JB4B"',
+385 verbose headers   'content-type': 'application/json',
+385 verbose headers   'content-encoding': 'gzip',
+385 verbose headers   'cache-control': 'max-age=300',
+385 verbose headers   'content-length': '5864',
+385 verbose headers   'accept-ranges': 'bytes',
+385 verbose headers   date: 'Tue, 19 Apr 2016 10:32:38 GMT',
+385 verbose headers   via: '1.1 varnish',
+385 verbose headers   age: '172',
+385 verbose headers   connection: 'keep-alive',
+385 verbose headers   'x-served-by': 'cache-lhr6325-LHR',
+385 verbose headers   'x-cache': 'HIT',
+385 verbose headers   'x-cache-hits': '2',
+385 verbose headers   'x-timer': 'S1461061958.177782,VS0,VE0',
+385 verbose headers   vary: 'Accept-Encoding' }
+386 silly get cb [ 200,
+386 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+386 silly get     etag: '"5S4MAT7BBHQAYFBG3C932JB4B"',
+386 silly get     'content-type': 'application/json',
+386 silly get     'content-encoding': 'gzip',
+386 silly get     'cache-control': 'max-age=300',
+386 silly get     'content-length': '5864',
+386 silly get     'accept-ranges': 'bytes',
+386 silly get     date: 'Tue, 19 Apr 2016 10:32:38 GMT',
+386 silly get     via: '1.1 varnish',
+386 silly get     age: '172',
+386 silly get     connection: 'keep-alive',
+386 silly get     'x-served-by': 'cache-lhr6325-LHR',
+386 silly get     'x-cache': 'HIT',
+386 silly get     'x-cache-hits': '2',
+386 silly get     'x-timer': 'S1461061958.177782,VS0,VE0',
+386 silly get     vary: 'Accept-Encoding' } ]
+387 verbose get saving grunt-cli to \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\registry.npmjs.org\grunt-cli\.cache.json
+388 http 200 https://registry.npmjs.org/grunt-contrib-watch
+389 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+389 verbose headers   etag: '"3L0OE5CHOC4EQETSHHE4FDC7G"',
+389 verbose headers   'content-type': 'application/json',
+389 verbose headers   'content-encoding': 'gzip',
+389 verbose headers   'cache-control': 'max-age=300',
+389 verbose headers   'content-length': '14490',
+389 verbose headers   'accept-ranges': 'bytes',
+389 verbose headers   date: 'Tue, 19 Apr 2016 10:32:38 GMT',
+389 verbose headers   via: '1.1 varnish',
+389 verbose headers   age: '272',
+389 verbose headers   connection: 'keep-alive',
+389 verbose headers   'x-served-by': 'cache-lhr6320-LHR',
+389 verbose headers   'x-cache': 'HIT',
+389 verbose headers   'x-cache-hits': '5',
+389 verbose headers   'x-timer': 'S1461061958.176067,VS0,VE0',
+389 verbose headers   vary: 'Accept-Encoding' }
+390 silly get cb [ 200,
+390 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+390 silly get     etag: '"3L0OE5CHOC4EQETSHHE4FDC7G"',
+390 silly get     'content-type': 'application/json',
+390 silly get     'content-encoding': 'gzip',
+390 silly get     'cache-control': 'max-age=300',
+390 silly get     'content-length': '14490',
+390 silly get     'accept-ranges': 'bytes',
+390 silly get     date: 'Tue, 19 Apr 2016 10:32:38 GMT',
+390 silly get     via: '1.1 varnish',
+390 silly get     age: '272',
+390 silly get     connection: 'keep-alive',
+390 silly get     'x-served-by': 'cache-lhr6320-LHR',
+390 silly get     'x-cache': 'HIT',
+390 silly get     'x-cache-hits': '5',
+390 silly get     'x-timer': 'S1461061958.176067,VS0,VE0',
+390 silly get     vary: 'Accept-Encoding' } ]
+391 verbose get saving grunt-contrib-watch to \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\registry.npmjs.org\grunt-contrib-watch\.cache.json
+392 http 200 https://registry.npmjs.org/prompt
+393 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+393 verbose headers   etag: '"4CUBPFCYTM8IR9IVELPSBSX5K"',
+393 verbose headers   'content-type': 'application/json',
+393 verbose headers   'content-encoding': 'gzip',
+393 verbose headers   'cache-control': 'max-age=300',
+393 verbose headers   'content-length': '10149',
+393 verbose headers   'accept-ranges': 'bytes',
+393 verbose headers   date: 'Tue, 19 Apr 2016 10:32:38 GMT',
+393 verbose headers   via: '1.1 varnish',
+393 verbose headers   age: '185',
+393 verbose headers   connection: 'keep-alive',
+393 verbose headers   'x-served-by': 'cache-lhr6327-LHR',
+393 verbose headers   'x-cache': 'HIT',
+393 verbose headers   'x-cache-hits': '2',
+393 verbose headers   'x-timer': 'S1461061958.175960,VS0,VE0',
+393 verbose headers   vary: 'Accept-Encoding' }
+394 silly get cb [ 200,
+394 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+394 silly get     etag: '"4CUBPFCYTM8IR9IVELPSBSX5K"',
+394 silly get     'content-type': 'application/json',
+394 silly get     'content-encoding': 'gzip',
+394 silly get     'cache-control': 'max-age=300',
+394 silly get     'content-length': '10149',
+394 silly get     'accept-ranges': 'bytes',
+394 silly get     date: 'Tue, 19 Apr 2016 10:32:38 GMT',
+394 silly get     via: '1.1 varnish',
+394 silly get     age: '185',
+394 silly get     connection: 'keep-alive',
+394 silly get     'x-served-by': 'cache-lhr6327-LHR',
+394 silly get     'x-cache': 'HIT',
+394 silly get     'x-cache-hits': '2',
+394 silly get     'x-timer': 'S1461061958.175960,VS0,VE0',
+394 silly get     vary: 'Accept-Encoding' } ]
+395 verbose get saving prompt to \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\registry.npmjs.org\prompt\.cache.json
+396 http 200 https://registry.npmjs.org/grunt-sass
+397 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+397 verbose headers   etag: '"ERG39JEXBO1KNH66K71YEDTUQ"',
+397 verbose headers   'content-type': 'application/json',
+397 verbose headers   'content-encoding': 'gzip',
+397 verbose headers   'cache-control': 'max-age=300',
+397 verbose headers   'content-length': '6397',
+397 verbose headers   'accept-ranges': 'bytes',
+397 verbose headers   date: 'Tue, 19 Apr 2016 10:32:38 GMT',
+397 verbose headers   via: '1.1 varnish',
+397 verbose headers   age: '130',
+397 verbose headers   connection: 'keep-alive',
+397 verbose headers   'x-served-by': 'cache-lhr6330-LHR',
+397 verbose headers   'x-cache': 'HIT',
+397 verbose headers   'x-cache-hits': '2',
+397 verbose headers   'x-timer': 'S1461061958.176462,VS0,VE0',
+397 verbose headers   vary: 'Accept-Encoding' }
+398 silly get cb [ 200,
+398 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+398 silly get     etag: '"ERG39JEXBO1KNH66K71YEDTUQ"',
+398 silly get     'content-type': 'application/json',
+398 silly get     'content-encoding': 'gzip',
+398 silly get     'cache-control': 'max-age=300',
+398 silly get     'content-length': '6397',
+398 silly get     'accept-ranges': 'bytes',
+398 silly get     date: 'Tue, 19 Apr 2016 10:32:38 GMT',
+398 silly get     via: '1.1 varnish',
+398 silly get     age: '130',
+398 silly get     connection: 'keep-alive',
+398 silly get     'x-served-by': 'cache-lhr6330-LHR',
+398 silly get     'x-cache': 'HIT',
+398 silly get     'x-cache-hits': '2',
+398 silly get     'x-timer': 'S1461061958.176462,VS0,VE0',
+398 silly get     vary: 'Accept-Encoding' } ]
+399 verbose get saving grunt-sass to \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\registry.npmjs.org\grunt-sass\.cache.json
+400 http 200 https://registry.npmjs.org/grunt-sync
+401 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+401 verbose headers   etag: '"71LBENDDKL5R11NGCDJWFBLKK"',
+401 verbose headers   'content-type': 'application/json',
+401 verbose headers   'content-encoding': 'gzip',
+401 verbose headers   'cache-control': 'max-age=300',
+401 verbose headers   'content-length': '5339',
+401 verbose headers   'accept-ranges': 'bytes',
+401 verbose headers   date: 'Tue, 19 Apr 2016 10:32:38 GMT',
+401 verbose headers   via: '1.1 varnish',
+401 verbose headers   age: '9',
+401 verbose headers   connection: 'keep-alive',
+401 verbose headers   'x-served-by': 'cache-lhr6331-LHR',
+401 verbose headers   'x-cache': 'HIT',
+401 verbose headers   'x-cache-hits': '1',
+401 verbose headers   'x-timer': 'S1461061958.176746,VS0,VE0',
+401 verbose headers   vary: 'Accept-Encoding' }
+402 silly get cb [ 200,
+402 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+402 silly get     etag: '"71LBENDDKL5R11NGCDJWFBLKK"',
+402 silly get     'content-type': 'application/json',
+402 silly get     'content-encoding': 'gzip',
+402 silly get     'cache-control': 'max-age=300',
+402 silly get     'content-length': '5339',
+402 silly get     'accept-ranges': 'bytes',
+402 silly get     date: 'Tue, 19 Apr 2016 10:32:38 GMT',
+402 silly get     via: '1.1 varnish',
+402 silly get     age: '9',
+402 silly get     connection: 'keep-alive',
+402 silly get     'x-served-by': 'cache-lhr6331-LHR',
+402 silly get     'x-cache': 'HIT',
+402 silly get     'x-cache-hits': '1',
+402 silly get     'x-timer': 'S1461061958.176746,VS0,VE0',
+402 silly get     vary: 'Accept-Encoding' } ]
+403 verbose get saving grunt-sync to \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\registry.npmjs.org\grunt-sync\.cache.json
+404 http 200 https://registry.npmjs.org/body-parser
+405 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+405 verbose headers   etag: '"55T9GLJFGH0TEFUN9WDBGDFWS"',
+405 verbose headers   'content-type': 'application/json',
+405 verbose headers   'content-encoding': 'gzip',
+405 verbose headers   'cache-control': 'max-age=300',
+405 verbose headers   'content-length': '15238',
+405 verbose headers   'accept-ranges': 'bytes',
+405 verbose headers   date: 'Tue, 19 Apr 2016 10:32:38 GMT',
+405 verbose headers   via: '1.1 varnish',
+405 verbose headers   age: '148',
+405 verbose headers   connection: 'keep-alive',
+405 verbose headers   'x-served-by': 'cache-lhr6331-LHR',
+405 verbose headers   'x-cache': 'HIT',
+405 verbose headers   'x-cache-hits': '3',
+405 verbose headers   'x-timer': 'S1461061958.175252,VS0,VE0',
+405 verbose headers   vary: 'Accept-Encoding' }
+406 silly get cb [ 200,
+406 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+406 silly get     etag: '"55T9GLJFGH0TEFUN9WDBGDFWS"',
+406 silly get     'content-type': 'application/json',
+406 silly get     'content-encoding': 'gzip',
+406 silly get     'cache-control': 'max-age=300',
+406 silly get     'content-length': '15238',
+406 silly get     'accept-ranges': 'bytes',
+406 silly get     date: 'Tue, 19 Apr 2016 10:32:38 GMT',
+406 silly get     via: '1.1 varnish',
+406 silly get     age: '148',
+406 silly get     connection: 'keep-alive',
+406 silly get     'x-served-by': 'cache-lhr6331-LHR',
+406 silly get     'x-cache': 'HIT',
+406 silly get     'x-cache-hits': '3',
+406 silly get     'x-timer': 'S1461061958.175252,VS0,VE0',
+406 silly get     vary: 'Accept-Encoding' } ]
+407 verbose get saving body-parser to \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\registry.npmjs.org\body-parser\.cache.json
+408 http 200 https://registry.npmjs.org/grunt
+409 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+409 verbose headers   etag: '"DT6R71WU421AW1JPVNN2AKCGW"',
+409 verbose headers   'content-type': 'application/json',
+409 verbose headers   'content-encoding': 'gzip',
+409 verbose headers   'cache-control': 'max-age=300',
+409 verbose headers   'content-length': '12907',
+409 verbose headers   'accept-ranges': 'bytes',
+409 verbose headers   date: 'Tue, 19 Apr 2016 10:32:38 GMT',
+409 verbose headers   via: '1.1 varnish',
+409 verbose headers   age: '13',
+409 verbose headers   connection: 'keep-alive',
+409 verbose headers   'x-served-by': 'cache-lhr6320-LHR',
+409 verbose headers   'x-cache': 'HIT',
+409 verbose headers   'x-cache-hits': '126',
+409 verbose headers   'x-timer': 'S1461061958.177630,VS0,VE0',
+409 verbose headers   vary: 'Accept-Encoding' }
+410 silly get cb [ 200,
+410 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+410 silly get     etag: '"DT6R71WU421AW1JPVNN2AKCGW"',
+410 silly get     'content-type': 'application/json',
+410 silly get     'content-encoding': 'gzip',
+410 silly get     'cache-control': 'max-age=300',
+410 silly get     'content-length': '12907',
+410 silly get     'accept-ranges': 'bytes',
+410 silly get     date: 'Tue, 19 Apr 2016 10:32:38 GMT',
+410 silly get     via: '1.1 varnish',
+410 silly get     age: '13',
+410 silly get     connection: 'keep-alive',
+410 silly get     'x-served-by': 'cache-lhr6320-LHR',
+410 silly get     'x-cache': 'HIT',
+410 silly get     'x-cache-hits': '126',
+410 silly get     'x-timer': 'S1461061958.177630,VS0,VE0',
+410 silly get     vary: 'Accept-Encoding' } ]
+411 verbose get saving grunt to \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\registry.npmjs.org\grunt\.cache.json
+412 http 200 https://registry.npmjs.org/express
+413 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+413 verbose headers   etag: '"DI0345A4H6PCEJFYI1VPNCPA2"',
+413 verbose headers   'content-type': 'application/json',
+413 verbose headers   'cache-control': 'max-age=300',
+413 verbose headers   'content-length': '536177',
+413 verbose headers   'accept-ranges': 'bytes',
+413 verbose headers   date: 'Tue, 19 Apr 2016 10:32:38 GMT',
+413 verbose headers   via: '1.1 varnish',
+413 verbose headers   age: '82',
+413 verbose headers   connection: 'keep-alive',
+413 verbose headers   'x-served-by': 'cache-lhr6328-LHR',
+413 verbose headers   'x-cache': 'HIT',
+413 verbose headers   'x-cache-hits': '4',
+413 verbose headers   'x-timer': 'S1461061958.175198,VS0,VE0',
+413 verbose headers   vary: 'Accept-Encoding' }
+414 silly get cb [ 200,
+414 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+414 silly get     etag: '"DI0345A4H6PCEJFYI1VPNCPA2"',
+414 silly get     'content-type': 'application/json',
+414 silly get     'cache-control': 'max-age=300',
+414 silly get     'content-length': '536177',
+414 silly get     'accept-ranges': 'bytes',
+414 silly get     date: 'Tue, 19 Apr 2016 10:32:38 GMT',
+414 silly get     via: '1.1 varnish',
+414 silly get     age: '82',
+414 silly get     connection: 'keep-alive',
+414 silly get     'x-served-by': 'cache-lhr6328-LHR',
+414 silly get     'x-cache': 'HIT',
+414 silly get     'x-cache-hits': '4',
+414 silly get     'x-timer': 'S1461061958.175198,VS0,VE0',
+414 silly get     vary: 'Accept-Encoding' } ]
+415 verbose get saving express to \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\registry.npmjs.org\express\.cache.json
+416 silly addNameRange number 2 { name: 'portscanner', range: '>=1.0.0 <2.0.0', hasData: true }
+417 silly addNameRange versions [ 'portscanner',
+417 silly addNameRange   [ '0.1.0',
+417 silly addNameRange     '0.1.1',
+417 silly addNameRange     '0.1.2',
+417 silly addNameRange     '0.1.3',
+417 silly addNameRange     '0.2.0',
+417 silly addNameRange     '0.2.1',
+417 silly addNameRange     '0.2.2',
+417 silly addNameRange     '0.2.3',
+417 silly addNameRange     '1.0.0' ] ]
+418 silly addNamed portscanner@1.0.0
+419 verbose addNamed "1.0.0" is a plain semver version for portscanner
+420 silly mapToRegistry name grunt-nodemon
+421 silly mapToRegistry using default registry
+422 silly mapToRegistry registry https://registry.npmjs.org/
+423 silly mapToRegistry uri https://registry.npmjs.org/grunt-nodemon
+424 verbose addRemoteTarball https://registry.npmjs.org/grunt-nodemon/-/grunt-nodemon-0.4.0.tgz not in flight; adding
+425 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt-nodemon/-/grunt-nodemon-0.4.0.tgz',
+425 verbose addRemoteTarball   '03b83264086241261d59233e1581990d547ef45c' ]
+426 silly addNameRange number 2 { name: 'consolidate', range: '>=0.0.0 <1.0.0', hasData: true }
+427 silly addNameRange versions [ 'consolidate',
+427 silly addNameRange   [ '0.0.1',
+427 silly addNameRange     '0.1.0',
+427 silly addNameRange     '0.2.0',
+427 silly addNameRange     '0.3.0',
+427 silly addNameRange     '0.3.1',
+427 silly addNameRange     '0.4.0',
+427 silly addNameRange     '0.5.0',
+427 silly addNameRange     '0.6.0',
+427 silly addNameRange     '0.7.0',
+427 silly addNameRange     '0.8.0',
+427 silly addNameRange     '0.9.0',
+427 silly addNameRange     '0.9.1',
+427 silly addNameRange     '0.10.0',
+427 silly addNameRange     '0.11.0',
+427 silly addNameRange     '0.12.0',
+427 silly addNameRange     '0.12.1',
+427 silly addNameRange     '0.13.0',
+427 silly addNameRange     '0.13.1',
+427 silly addNameRange     '0.14.0' ] ]
+428 silly addNamed consolidate@0.14.0
+429 verbose addNamed "0.14.0" is a plain semver version for consolidate
+430 silly mapToRegistry name grunt-contrib-watch
+431 silly mapToRegistry using default registry
+432 silly mapToRegistry registry https://registry.npmjs.org/
+433 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-watch
+434 verbose addRemoteTarball https://registry.npmjs.org/grunt-contrib-watch/-/grunt-contrib-watch-0.5.3.tgz not in flight; adding
+435 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt-contrib-watch/-/grunt-contrib-watch-0.5.3.tgz',
+435 verbose addRemoteTarball   '7d9eb5465d506fa14faaca47e6e8790a82c1c9ee' ]
+436 silly mapToRegistry name grunt-cli
+437 silly mapToRegistry using default registry
+438 silly mapToRegistry registry https://registry.npmjs.org/
+439 silly mapToRegistry uri https://registry.npmjs.org/grunt-cli
+440 verbose addRemoteTarball https://registry.npmjs.org/grunt-cli/-/grunt-cli-0.1.13.tgz not in flight; adding
+441 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt-cli/-/grunt-cli-0.1.13.tgz',
+441 verbose addRemoteTarball   'e9ebc4047631f5012d922770c39378133cad10f4' ]
+442 http 200 https://registry.npmjs.org/express-nunjucks
+443 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+443 verbose headers   etag: '"5RBVKQV2EU6O8ASTB8HAD047B"',
+443 verbose headers   'content-type': 'application/json',
+443 verbose headers   'content-encoding': 'gzip',
+443 verbose headers   'cache-control': 'max-age=300',
+443 verbose headers   'content-length': '3421',
+443 verbose headers   'accept-ranges': 'bytes',
+443 verbose headers   date: 'Tue, 19 Apr 2016 10:32:38 GMT',
+443 verbose headers   via: '1.1 varnish',
+443 verbose headers   age: '0',
+443 verbose headers   connection: 'keep-alive',
+443 verbose headers   'x-served-by': 'cache-lhr6330-LHR',
+443 verbose headers   'x-cache': 'MISS',
+443 verbose headers   'x-cache-hits': '0',
+443 verbose headers   'x-timer': 'S1461061958.175462,VS0,VE91',
+443 verbose headers   vary: 'Accept-Encoding' }
+444 silly get cb [ 200,
+444 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+444 silly get     etag: '"5RBVKQV2EU6O8ASTB8HAD047B"',
+444 silly get     'content-type': 'application/json',
+444 silly get     'content-encoding': 'gzip',
+444 silly get     'cache-control': 'max-age=300',
+444 silly get     'content-length': '3421',
+444 silly get     'accept-ranges': 'bytes',
+444 silly get     date: 'Tue, 19 Apr 2016 10:32:38 GMT',
+444 silly get     via: '1.1 varnish',
+444 silly get     age: '0',
+444 silly get     connection: 'keep-alive',
+444 silly get     'x-served-by': 'cache-lhr6330-LHR',
+444 silly get     'x-cache': 'MISS',
+444 silly get     'x-cache-hits': '0',
+444 silly get     'x-timer': 'S1461061958.175462,VS0,VE91',
+444 silly get     vary: 'Accept-Encoding' } ]
+445 verbose get saving express-nunjucks to \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\registry.npmjs.org\express-nunjucks\.cache.json
+446 silly mapToRegistry name portscanner
+447 silly mapToRegistry using default registry
+448 silly mapToRegistry registry https://registry.npmjs.org/
+449 silly mapToRegistry uri https://registry.npmjs.org/portscanner
+450 verbose addRemoteTarball https://registry.npmjs.org/portscanner/-/portscanner-1.0.0.tgz not in flight; adding
+451 verbose addRemoteTarball [ 'https://registry.npmjs.org/portscanner/-/portscanner-1.0.0.tgz',
+451 verbose addRemoteTarball   '3b5cfe393828b5160abc600e6270ebc2f1590558' ]
+452 silly mapToRegistry name consolidate
+453 silly mapToRegistry using default registry
+454 silly mapToRegistry registry https://registry.npmjs.org/
+455 silly mapToRegistry uri https://registry.npmjs.org/consolidate
+456 verbose addRemoteTarball https://registry.npmjs.org/consolidate/-/consolidate-0.14.0.tgz not in flight; adding
+457 verbose addRemoteTarball [ 'https://registry.npmjs.org/consolidate/-/consolidate-0.14.0.tgz',
+457 verbose addRemoteTarball   'b03acd566a2565ca96e99f44fd1417486b4df88d' ]
+458 silly addNameRange number 2 { name: 'prompt', range: '>=0.2.14 <0.3.0', hasData: true }
+459 silly addNameRange versions [ 'prompt',
+459 silly addNameRange   [ '0.0.1',
+459 silly addNameRange     '0.0.2',
+459 silly addNameRange     '0.0.3',
+459 silly addNameRange     '0.0.4',
+459 silly addNameRange     '0.1.0',
+459 silly addNameRange     '0.1.1',
+459 silly addNameRange     '0.1.2',
+459 silly addNameRange     '0.1.3',
+459 silly addNameRange     '0.1.4',
+459 silly addNameRange     '0.1.5',
+459 silly addNameRange     '0.1.7',
+459 silly addNameRange     '0.1.8',
+459 silly addNameRange     '0.1.9',
+459 silly addNameRange     '0.1.10',
+459 silly addNameRange     '0.1.11',
+459 silly addNameRange     '0.1.12',
+459 silly addNameRange     '0.2.0',
+459 silly addNameRange     '0.2.1',
+459 silly addNameRange     '0.2.2',
+459 silly addNameRange     '0.2.3',
+459 silly addNameRange     '0.2.4',
+459 silly addNameRange     '0.2.5',
+459 silly addNameRange     '0.2.6',
+459 silly addNameRange     '0.2.7',
+459 silly addNameRange     '0.2.8',
+459 silly addNameRange     '0.2.9',
+459 silly addNameRange     '0.2.10',
+459 silly addNameRange     '0.2.11',
+459 silly addNameRange     '0.2.12',
+459 silly addNameRange     '0.2.13',
+459 silly addNameRange     '0.2.14',
+459 silly addNameRange     '0.3.0',
+459 silly addNameRange     '1.0.0' ] ]
+460 silly addNamed prompt@0.2.14
+461 verbose addNamed "0.2.14" is a plain semver version for prompt
+462 silly addNameRange number 2 { name: 'grunt-sass', range: '>=1.1.0 <2.0.0', hasData: true }
+463 silly addNameRange versions [ 'grunt-sass',
+463 silly addNameRange   [ '0.1.0',
+463 silly addNameRange     '0.2.1',
+463 silly addNameRange     '0.2.2',
+463 silly addNameRange     '0.2.3',
+463 silly addNameRange     '0.2.4',
+463 silly addNameRange     '0.2.5',
+463 silly addNameRange     '0.3.0',
+463 silly addNameRange     '0.4.0',
+463 silly addNameRange     '0.4.1',
+463 silly addNameRange     '0.5.0',
+463 silly addNameRange     '0.6.0',
+463 silly addNameRange     '0.6.1',
+463 silly addNameRange     '0.7.0',
+463 silly addNameRange     '0.8.0',
+463 silly addNameRange     '0.8.1',
+463 silly addNameRange     '0.9.0',
+463 silly addNameRange     '0.10.0',
+463 silly addNameRange     '0.11.0',
+463 silly addNameRange     '0.12.0',
+463 silly addNameRange     '0.12.1',
+463 silly addNameRange     '0.13.0',
+463 silly addNameRange     '0.13.1',
+463 silly addNameRange     '0.14.0',
+463 silly addNameRange     '0.14.1',
+463 silly addNameRange     '0.14.2',
+463 silly addNameRange     '0.15.0',
+463 silly addNameRange     '0.16.0',
+463 silly addNameRange     '0.16.1',
+463 silly addNameRange     '0.17.0',
+463 silly addNameRange     '0.18.0',
+463 silly addNameRange     '0.18.1',
+463 silly addNameRange     '1.0.0',
+463 silly addNameRange     '1.1.0-beta',
+463 silly addNameRange     '1.1.0',
+463 silly addNameRange     '1.2.0-beta' ] ]
+464 silly addNamed grunt-sass@1.1.0
+465 verbose addNamed "1.1.0" is a plain semver version for grunt-sass
+466 silly mapToRegistry name grunt-concurrent
+467 silly mapToRegistry using default registry
+468 silly mapToRegistry registry https://registry.npmjs.org/
+469 silly mapToRegistry uri https://registry.npmjs.org/grunt-concurrent
+470 verbose addRemoteTarball https://registry.npmjs.org/grunt-concurrent/-/grunt-concurrent-0.4.3.tgz not in flight; adding
+471 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt-concurrent/-/grunt-concurrent-0.4.3.tgz',
+471 verbose addRemoteTarball   '2453490185594c89d8399f3b1843476f6869e49d' ]
+472 silly mapToRegistry name minimist
+473 silly mapToRegistry using default registry
+474 silly mapToRegistry registry https://registry.npmjs.org/
+475 silly mapToRegistry uri https://registry.npmjs.org/minimist
+476 verbose addRemoteTarball https://registry.npmjs.org/minimist/-/minimist-0.0.8.tgz not in flight; adding
+477 verbose addRemoteTarball [ 'https://registry.npmjs.org/minimist/-/minimist-0.0.8.tgz',
+477 verbose addRemoteTarball   '857fcabfc3397d2625b8228262e86aa7a011b05d' ]
+478 silly addNameRange number 2 { name: 'grunt-sync', range: '>=0.5.1 <0.6.0', hasData: true }
+479 silly addNameRange versions [ 'grunt-sync',
+479 silly addNameRange   [ '0.0.2',
+479 silly addNameRange     '0.0.3',
+479 silly addNameRange     '0.0.4',
+479 silly addNameRange     '0.0.5',
+479 silly addNameRange     '0.0.6',
+479 silly addNameRange     '0.0.7',
+479 silly addNameRange     '0.0.8',
+479 silly addNameRange     '0.1.0',
+479 silly addNameRange     '0.1.1',
+479 silly addNameRange     '0.2.0',
+479 silly addNameRange     '0.2.1',
+479 silly addNameRange     '0.2.2',
+479 silly addNameRange     '0.2.3',
+479 silly addNameRange     '0.2.4',
+479 silly addNameRange     '0.3.0',
+479 silly addNameRange     '0.4.0',
+479 silly addNameRange     '0.4.1',
+479 silly addNameRange     '0.5.0',
+479 silly addNameRange     '0.5.1',
+479 silly addNameRange     '0.5.2' ] ]
+480 silly addNamed grunt-sync@0.5.2
+481 verbose addNamed "0.5.2" is a plain semver version for grunt-sync
+482 silly addNameRange number 2 { name: 'basic-auth', range: '>=1.0.3 <2.0.0', hasData: true }
+483 silly addNameRange versions [ 'basic-auth',
+483 silly addNameRange   [ '0.0.1', '1.0.0', '1.0.1', '1.0.2', '1.0.3' ] ]
+484 silly addNamed basic-auth@1.0.3
+485 verbose addNamed "1.0.3" is a plain semver version for basic-auth
+486 silly mapToRegistry name serve-favicon
+487 silly mapToRegistry using default registry
+488 silly mapToRegistry registry https://registry.npmjs.org/
+489 silly mapToRegistry uri https://registry.npmjs.org/serve-favicon
+490 verbose addRemoteTarball https://registry.npmjs.org/serve-favicon/-/serve-favicon-2.3.0.tgz not in flight; adding
+491 verbose addRemoteTarball [ 'https://registry.npmjs.org/serve-favicon/-/serve-favicon-2.3.0.tgz',
+491 verbose addRemoteTarball   'aed36cc6834069a6f189cc7222c6a1a811dc5b39' ]
+492 silly mapToRegistry name prompt
+493 silly mapToRegistry using default registry
+494 silly mapToRegistry registry https://registry.npmjs.org/
+495 silly mapToRegistry uri https://registry.npmjs.org/prompt
+496 verbose addRemoteTarball https://registry.npmjs.org/prompt/-/prompt-0.2.14.tgz not in flight; adding
+497 verbose addRemoteTarball [ 'https://registry.npmjs.org/prompt/-/prompt-0.2.14.tgz',
+497 verbose addRemoteTarball   '57754f64f543fd7b0845707c818ece618f05ffdc' ]
+498 silly mapToRegistry name grunt-sass
+499 silly mapToRegistry using default registry
+500 silly mapToRegistry registry https://registry.npmjs.org/
+501 silly mapToRegistry uri https://registry.npmjs.org/grunt-sass
+502 verbose addRemoteTarball https://registry.npmjs.org/grunt-sass/-/grunt-sass-1.1.0.tgz not in flight; adding
+503 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt-sass/-/grunt-sass-1.1.0.tgz',
+503 verbose addRemoteTarball   '480533c751a617366385c0fb9845184c05b2e4ab' ]
+504 silly mapToRegistry name grunt-sync
+505 silly mapToRegistry using default registry
+506 silly mapToRegistry registry https://registry.npmjs.org/
+507 silly mapToRegistry uri https://registry.npmjs.org/grunt-sync
+508 verbose addRemoteTarball https://registry.npmjs.org/grunt-sync/-/grunt-sync-0.5.2.tgz not in flight; adding
+509 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt-sync/-/grunt-sync-0.5.2.tgz',
+509 verbose addRemoteTarball   '6162c48f42e1b9a96f5f930433e1f3a880d8a6ec' ]
+510 silly mapToRegistry name basic-auth
+511 silly mapToRegistry using default registry
+512 silly mapToRegistry registry https://registry.npmjs.org/
+513 silly mapToRegistry uri https://registry.npmjs.org/basic-auth
+514 verbose addRemoteTarball https://registry.npmjs.org/basic-auth/-/basic-auth-1.0.3.tgz not in flight; adding
+515 verbose addRemoteTarball [ 'https://registry.npmjs.org/basic-auth/-/basic-auth-1.0.3.tgz',
+515 verbose addRemoteTarball   '41f55523e589405038ee3567958c62a5ed70551a' ]
+516 silly addNameRange number 2 { name: 'basic-auth-connect',
+516 silly addNameRange   range: '>=1.0.0 <2.0.0',
+516 silly addNameRange   hasData: true }
+517 silly addNameRange versions [ 'basic-auth-connect', [ '1.0.0' ] ]
+518 silly addNamed basic-auth-connect@1.0.0
+519 verbose addNamed "1.0.0" is a plain semver version for basic-auth-connect
+520 http 200 https://registry.npmjs.org/govuk_template_mustache
+521 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+521 verbose headers   etag: '"V16BC0EZLETT4E8DGHZRNUG3"',
+521 verbose headers   'content-type': 'application/json',
+521 verbose headers   'content-encoding': 'gzip',
+521 verbose headers   'cache-control': 'max-age=300',
+521 verbose headers   'content-length': '5069',
+521 verbose headers   'accept-ranges': 'bytes',
+521 verbose headers   date: 'Tue, 19 Apr 2016 10:32:38 GMT',
+521 verbose headers   via: '1.1 varnish',
+521 verbose headers   age: '0',
+521 verbose headers   connection: 'keep-alive',
+521 verbose headers   'x-served-by': 'cache-lhr6326-LHR',
+521 verbose headers   'x-cache': 'HIT',
+521 verbose headers   'x-cache-hits': '1',
+521 verbose headers   'x-timer': 'S1461061958.178415,VS0,VE91',
+521 verbose headers   vary: 'Accept-Encoding' }
+522 silly get cb [ 200,
+522 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+522 silly get     etag: '"V16BC0EZLETT4E8DGHZRNUG3"',
+522 silly get     'content-type': 'application/json',
+522 silly get     'content-encoding': 'gzip',
+522 silly get     'cache-control': 'max-age=300',
+522 silly get     'content-length': '5069',
+522 silly get     'accept-ranges': 'bytes',
+522 silly get     date: 'Tue, 19 Apr 2016 10:32:38 GMT',
+522 silly get     via: '1.1 varnish',
+522 silly get     age: '0',
+522 silly get     connection: 'keep-alive',
+522 silly get     'x-served-by': 'cache-lhr6326-LHR',
+522 silly get     'x-cache': 'HIT',
+522 silly get     'x-cache-hits': '1',
+522 silly get     'x-timer': 'S1461061958.178415,VS0,VE91',
+522 silly get     vary: 'Accept-Encoding' } ]
+523 verbose get saving govuk_template_mustache to \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\registry.npmjs.org\govuk_template_mustache\.cache.json
+524 silly mapToRegistry name basic-auth-connect
+525 silly mapToRegistry using default registry
+526 silly mapToRegistry registry https://registry.npmjs.org/
+527 silly mapToRegistry uri https://registry.npmjs.org/basic-auth-connect
+528 verbose addRemoteTarball https://registry.npmjs.org/basic-auth-connect/-/basic-auth-connect-1.0.0.tgz not in flight; adding
+529 verbose addRemoteTarball [ 'https://registry.npmjs.org/basic-auth-connect/-/basic-auth-connect-1.0.0.tgz',
+529 verbose addRemoteTarball   'fdb0b43962ca7b40456a7c2bb48fe173da2d2122' ]
+530 info retry fetch attempt 1 at 11:32:38 AM
+531 info attempt registry request try #1 at 11:32:38 AM
+532 http fetch GET https://registry.npmjs.org/consolidate/-/consolidate-0.14.0.tgz
+533 info retry fetch attempt 1 at 11:32:38 AM
+534 info attempt registry request try #1 at 11:32:38 AM
+535 http fetch GET https://registry.npmjs.org/minimist/-/minimist-0.0.8.tgz
+536 info retry fetch attempt 1 at 11:32:38 AM
+537 info attempt registry request try #1 at 11:32:38 AM
+538 http fetch GET https://registry.npmjs.org/grunt-concurrent/-/grunt-concurrent-0.4.3.tgz
+539 info retry fetch attempt 1 at 11:32:38 AM
+540 info attempt registry request try #1 at 11:32:38 AM
+541 http fetch GET https://registry.npmjs.org/serve-favicon/-/serve-favicon-2.3.0.tgz
+542 info retry fetch attempt 1 at 11:32:38 AM
+543 info attempt registry request try #1 at 11:32:38 AM
+544 http fetch GET https://registry.npmjs.org/grunt-nodemon/-/grunt-nodemon-0.4.0.tgz
+545 info git [ 'clone',
+545 info git   '--template=\\\\u-kcs-nas01\\users$\\Mark.Barlow\\Application Data\\npm-cache\\_git-remotes\\_templates',
+545 info git   '--mirror',
+545 info git   'git://github.com/alphagov/govuk_elements.git',
+545 info git   '\\\\u-kcs-nas01\\users$\\Mark.Barlow\\Application Data\\npm-cache\\_git-remotes\\git-github-com-alphagov-govuk-elements-git-703cb2a8' ]
+546 info retry fetch attempt 1 at 11:32:38 AM
+547 info attempt registry request try #1 at 11:32:38 AM
+548 http fetch GET https://registry.npmjs.org/prompt/-/prompt-0.2.14.tgz
+549 info retry fetch attempt 1 at 11:32:38 AM
+550 info attempt registry request try #1 at 11:32:38 AM
+551 http fetch GET https://registry.npmjs.org/grunt-sass/-/grunt-sass-1.1.0.tgz
+552 silly mapToRegistry name grunt
+553 silly mapToRegistry using default registry
+554 silly mapToRegistry registry https://registry.npmjs.org/
+555 silly mapToRegistry uri https://registry.npmjs.org/grunt
+556 verbose addRemoteTarball https://registry.npmjs.org/grunt/-/grunt-0.4.5.tgz not in flight; adding
+557 verbose addRemoteTarball [ 'https://registry.npmjs.org/grunt/-/grunt-0.4.5.tgz',
+557 verbose addRemoteTarball   '56937cd5194324adff6d207631832a9d6ba4e7f0' ]
+558 info retry fetch attempt 1 at 11:32:38 AM
+559 info attempt registry request try #1 at 11:32:38 AM
+560 http fetch GET https://registry.npmjs.org/grunt-sync/-/grunt-sync-0.5.2.tgz
+561 info retry fetch attempt 1 at 11:32:38 AM
+562 info attempt registry request try #1 at 11:32:38 AM
+563 http fetch GET https://registry.npmjs.org/basic-auth/-/basic-auth-1.0.3.tgz
+564 silly addNameRange number 2 { name: 'body-parser', range: '>=1.14.1 <2.0.0', hasData: true }
+565 silly addNameRange versions [ 'body-parser',
+565 silly addNameRange   [ '1.0.0',
+565 silly addNameRange     '1.0.1',
+565 silly addNameRange     '1.0.2',
+565 silly addNameRange     '1.1.0',
+565 silly addNameRange     '1.1.1',
+565 silly addNameRange     '1.1.2',
+565 silly addNameRange     '1.2.0',
+565 silly addNameRange     '1.2.1',
+565 silly addNameRange     '1.2.2',
+565 silly addNameRange     '1.3.0',
+565 silly addNameRange     '1.3.1',
+565 silly addNameRange     '1.4.0',
+565 silly addNameRange     '1.4.1',
+565 silly addNameRange     '1.4.2',
+565 silly addNameRange     '1.4.3',
+565 silly addNameRange     '1.5.0',
+565 silly addNameRange     '1.5.1',
+565 silly addNameRange     '1.5.2',
+565 silly addNameRange     '1.6.0',
+565 silly addNameRange     '1.6.1',
+565 silly addNameRange     '1.6.2',
+565 silly addNameRange     '1.6.3',
+565 silly addNameRange     '1.6.4',
+565 silly addNameRange     '1.6.5',
+565 silly addNameRange     '1.6.6',
+565 silly addNameRange     '1.6.7',
+565 silly addNameRange     '1.7.0',
+565 silly addNameRange     '1.8.0',
+565 silly addNameRange     '1.8.1',
+565 silly addNameRange     '1.8.2',
+565 silly addNameRange     '1.8.3',
+565 silly addNameRange     '1.8.4',
+565 silly addNameRange     '1.9.0',
+565 silly addNameRange     '1.9.1',
+565 silly addNameRange     '1.9.2',
+565 silly addNameRange     '1.9.3',
+565 silly addNameRange     '1.10.0',
+565 silly addNameRange     '1.10.1',
+565 silly addNameRange     '1.10.2',
+565 silly addNameRange     '1.11.0',
+565 silly addNameRange     '1.12.0',
+565 silly addNameRange     '1.12.1',
+565 silly addNameRange     '1.12.2',
+565 silly addNameRange     '1.12.3',
+565 silly addNameRange     '1.12.4',
+565 silly addNameRange     '1.13.0',
+565 silly addNameRange     '1.13.1',
+565 silly addNameRange     '1.13.2',
+565 silly addNameRange     '1.13.3',
+565 silly addNameRange     '1.14.0',
+565 silly addNameRange     '1.14.1',
+565 silly addNameRange     '1.14.2',
+565 silly addNameRange     '1.15.0' ] ]
+566 silly addNamed body-parser@1.15.0
+567 verbose addNamed "1.15.0" is a plain semver version for body-parser
+568 info retry fetch attempt 1 at 11:32:38 AM
+569 info attempt registry request try #1 at 11:32:38 AM
+570 http fetch GET https://registry.npmjs.org/grunt-cli/-/grunt-cli-0.1.13.tgz
+571 info retry fetch attempt 1 at 11:32:38 AM
+572 info attempt registry request try #1 at 11:32:38 AM
+573 http fetch GET https://registry.npmjs.org/grunt-contrib-watch/-/grunt-contrib-watch-0.5.3.tgz
+574 info retry fetch attempt 1 at 11:32:38 AM
+575 info attempt registry request try #1 at 11:32:38 AM
+576 http fetch GET https://registry.npmjs.org/basic-auth-connect/-/basic-auth-connect-1.0.0.tgz
+577 info retry fetch attempt 1 at 11:32:38 AM
+578 info attempt registry request try #1 at 11:32:38 AM
+579 http fetch GET https://registry.npmjs.org/portscanner/-/portscanner-1.0.0.tgz
+580 silly mapToRegistry name express
+581 silly mapToRegistry using default registry
+582 silly mapToRegistry registry https://registry.npmjs.org/
+583 silly mapToRegistry uri https://registry.npmjs.org/express
+584 verbose addRemoteTarball https://registry.npmjs.org/express/-/express-4.13.3.tgz not in flight; adding
+585 verbose addRemoteTarball [ 'https://registry.npmjs.org/express/-/express-4.13.3.tgz',
+585 verbose addRemoteTarball   'ddb2f1fb4502bf33598d2b032b037960ca6c80a3' ]
+586 silly mapToRegistry name body-parser
+587 silly mapToRegistry using default registry
+588 silly mapToRegistry registry https://registry.npmjs.org/
+589 silly mapToRegistry uri https://registry.npmjs.org/body-parser
+590 verbose addRemoteTarball https://registry.npmjs.org/body-parser/-/body-parser-1.15.0.tgz not in flight; adding
+591 verbose addRemoteTarball [ 'https://registry.npmjs.org/body-parser/-/body-parser-1.15.0.tgz',
+591 verbose addRemoteTarball   '8168abaeaf9e77e300f7b3aef4df4b46e9b21b35' ]
+592 http 200 https://registry.npmjs.org/hogan.js
+593 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+593 verbose headers   etag: '"2WCBOGOSSHR78XOAJIQGZEEAP"',
+593 verbose headers   'content-type': 'application/json',
+593 verbose headers   'cache-control': 'max-age=300',
+593 verbose headers   'content-length': '12144',
+593 verbose headers   'accept-ranges': 'bytes',
+593 verbose headers   date: 'Tue, 19 Apr 2016 10:32:38 GMT',
+593 verbose headers   via: '1.1 varnish',
+593 verbose headers   age: '0',
+593 verbose headers   connection: 'keep-alive',
+593 verbose headers   'x-served-by': 'cache-lhr6320-LHR',
+593 verbose headers   'x-cache': 'HIT',
+593 verbose headers   'x-cache-hits': '1',
+593 verbose headers   'x-timer': 'S1461061958.176185,VS0,VE183',
+593 verbose headers   vary: 'Accept-Encoding' }
+594 silly get cb [ 200,
+594 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+594 silly get     etag: '"2WCBOGOSSHR78XOAJIQGZEEAP"',
+594 silly get     'content-type': 'application/json',
+594 silly get     'cache-control': 'max-age=300',
+594 silly get     'content-length': '12144',
+594 silly get     'accept-ranges': 'bytes',
+594 silly get     date: 'Tue, 19 Apr 2016 10:32:38 GMT',
+594 silly get     via: '1.1 varnish',
+594 silly get     age: '0',
+594 silly get     connection: 'keep-alive',
+594 silly get     'x-served-by': 'cache-lhr6320-LHR',
+594 silly get     'x-cache': 'HIT',
+594 silly get     'x-cache-hits': '1',
+594 silly get     'x-timer': 'S1461061958.176185,VS0,VE183',
+594 silly get     vary: 'Accept-Encoding' } ]
+595 verbose get saving hogan.js to \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\registry.npmjs.org\hogan.js\.cache.json
+596 info retry fetch attempt 1 at 11:32:38 AM
+597 info attempt registry request try #1 at 11:32:38 AM
+598 http fetch GET https://registry.npmjs.org/grunt/-/grunt-0.4.5.tgz
+599 http 200 https://registry.npmjs.org/readdir
+600 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+600 verbose headers   etag: '"A15ZKZYBR1E1WSHOLQJM7415Z"',
+600 verbose headers   'content-type': 'application/json',
+600 verbose headers   'content-encoding': 'gzip',
+600 verbose headers   'cache-control': 'max-age=300',
+600 verbose headers   'content-length': '2921',
+600 verbose headers   'accept-ranges': 'bytes',
+600 verbose headers   date: 'Tue, 19 Apr 2016 10:32:38 GMT',
+600 verbose headers   via: '1.1 varnish',
+600 verbose headers   age: '0',
+600 verbose headers   connection: 'keep-alive',
+600 verbose headers   'x-served-by': 'cache-lhr6328-LHR',
+600 verbose headers   'x-cache': 'HIT',
+600 verbose headers   'x-cache-hits': '1',
+600 verbose headers   'x-timer': 'S1461061958.179649,VS0,VE175',
+600 verbose headers   vary: 'Accept-Encoding' }
+601 silly get cb [ 200,
+601 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+601 silly get     etag: '"A15ZKZYBR1E1WSHOLQJM7415Z"',
+601 silly get     'content-type': 'application/json',
+601 silly get     'content-encoding': 'gzip',
+601 silly get     'cache-control': 'max-age=300',
+601 silly get     'content-length': '2921',
+601 silly get     'accept-ranges': 'bytes',
+601 silly get     date: 'Tue, 19 Apr 2016 10:32:38 GMT',
+601 silly get     via: '1.1 varnish',
+601 silly get     age: '0',
+601 silly get     connection: 'keep-alive',
+601 silly get     'x-served-by': 'cache-lhr6328-LHR',
+601 silly get     'x-cache': 'HIT',
+601 silly get     'x-cache-hits': '1',
+601 silly get     'x-timer': 'S1461061958.179649,VS0,VE175',
+601 silly get     vary: 'Accept-Encoding' } ]
+602 verbose get saving readdir to \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\registry.npmjs.org\readdir\.cache.json
+603 http 200 https://registry.npmjs.org/express-writer
+604 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+604 verbose headers   etag: '"D2UDABQFOMGRS1QBIGYO196X5"',
+604 verbose headers   'content-type': 'application/json',
+604 verbose headers   'content-encoding': 'gzip',
+604 verbose headers   'cache-control': 'max-age=300',
+604 verbose headers   'content-length': '2342',
+604 verbose headers   'accept-ranges': 'bytes',
+604 verbose headers   date: 'Tue, 19 Apr 2016 10:32:38 GMT',
+604 verbose headers   via: '1.1 varnish',
+604 verbose headers   age: '0',
+604 verbose headers   connection: 'keep-alive',
+604 verbose headers   'x-served-by': 'cache-lhr6324-LHR',
+604 verbose headers   'x-cache': 'MISS',
+604 verbose headers   'x-cache-hits': '0',
+604 verbose headers   'x-timer': 'S1461061958.174175,VS0,VE181',
+604 verbose headers   vary: 'Accept-Encoding' }
+605 silly get cb [ 200,
+605 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+605 silly get     etag: '"D2UDABQFOMGRS1QBIGYO196X5"',
+605 silly get     'content-type': 'application/json',
+605 silly get     'content-encoding': 'gzip',
+605 silly get     'cache-control': 'max-age=300',
+605 silly get     'content-length': '2342',
+605 silly get     'accept-ranges': 'bytes',
+605 silly get     date: 'Tue, 19 Apr 2016 10:32:38 GMT',
+605 silly get     via: '1.1 varnish',
+605 silly get     age: '0',
+605 silly get     connection: 'keep-alive',
+605 silly get     'x-served-by': 'cache-lhr6324-LHR',
+605 silly get     'x-cache': 'MISS',
+605 silly get     'x-cache-hits': '0',
+605 silly get     'x-timer': 'S1461061958.174175,VS0,VE181',
+605 silly get     vary: 'Accept-Encoding' } ]
+606 verbose get saving express-writer to \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\registry.npmjs.org\express-writer\.cache.json
+607 http fetch 200 https://registry.npmjs.org/minimist/-/minimist-0.0.8.tgz
+608 http fetch 200 https://registry.npmjs.org/consolidate/-/consolidate-0.14.0.tgz
+609 silly addNameRange number 2 { name: 'express-nunjucks',
+609 silly addNameRange   range: '>=0.9.3 <0.10.0',
+609 silly addNameRange   hasData: true }
+610 silly addNameRange versions [ 'express-nunjucks',
+610 silly addNameRange   [ '0.9.0',
+610 silly addNameRange     '0.9.1',
+610 silly addNameRange     '0.9.2',
+610 silly addNameRange     '0.9.3',
+610 silly addNameRange     '0.9.4',
+610 silly addNameRange     '0.9.5',
+610 silly addNameRange     '0.9.6',
+610 silly addNameRange     '1.0.0' ] ]
+611 silly addNamed express-nunjucks@0.9.6
+612 verbose addNamed "0.9.6" is a plain semver version for express-nunjucks
+613 http fetch 200 https://registry.npmjs.org/serve-favicon/-/serve-favicon-2.3.0.tgz
+614 http fetch 200 https://registry.npmjs.org/prompt/-/prompt-0.2.14.tgz
+615 http fetch 200 https://registry.npmjs.org/grunt-sass/-/grunt-sass-1.1.0.tgz
+616 http fetch 200 https://registry.npmjs.org/grunt-nodemon/-/grunt-nodemon-0.4.0.tgz
+617 http fetch 200 https://registry.npmjs.org/grunt-sync/-/grunt-sync-0.5.2.tgz
+618 http 200 https://registry.npmjs.org/govuk_frontend_toolkit
+619 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+619 verbose headers   etag: '"4WE911773C3WT0YUOBU1QR7RR"',
+619 verbose headers   'content-type': 'application/json',
+619 verbose headers   'content-encoding': 'gzip',
+619 verbose headers   'cache-control': 'max-age=300',
+619 verbose headers   'content-length': '7037',
+619 verbose headers   'accept-ranges': 'bytes',
+619 verbose headers   date: 'Tue, 19 Apr 2016 10:32:38 GMT',
+619 verbose headers   via: '1.1 varnish',
+619 verbose headers   age: '0',
+619 verbose headers   connection: 'keep-alive',
+619 verbose headers   'x-served-by': 'cache-lhr6326-LHR',
+619 verbose headers   'x-cache': 'MISS',
+619 verbose headers   'x-cache-hits': '0',
+619 verbose headers   'x-timer': 'S1461061958.174404,VS0,VE179',
+619 verbose headers   vary: 'Accept-Encoding' }
+620 silly get cb [ 200,
+620 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+620 silly get     etag: '"4WE911773C3WT0YUOBU1QR7RR"',
+620 silly get     'content-type': 'application/json',
+620 silly get     'content-encoding': 'gzip',
+620 silly get     'cache-control': 'max-age=300',
+620 silly get     'content-length': '7037',
+620 silly get     'accept-ranges': 'bytes',
+620 silly get     date: 'Tue, 19 Apr 2016 10:32:38 GMT',
+620 silly get     via: '1.1 varnish',
+620 silly get     age: '0',
+620 silly get     connection: 'keep-alive',
+620 silly get     'x-served-by': 'cache-lhr6326-LHR',
+620 silly get     'x-cache': 'MISS',
+620 silly get     'x-cache-hits': '0',
+620 silly get     'x-timer': 'S1461061958.174404,VS0,VE179',
+620 silly get     vary: 'Accept-Encoding' } ]
+621 verbose get saving govuk_frontend_toolkit to \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\registry.npmjs.org\govuk_frontend_toolkit\.cache.json
+622 silly mapToRegistry name express-nunjucks
+623 silly mapToRegistry using default registry
+624 silly mapToRegistry registry https://registry.npmjs.org/
+625 silly mapToRegistry uri https://registry.npmjs.org/express-nunjucks
+626 verbose addRemoteTarball https://registry.npmjs.org/express-nunjucks/-/express-nunjucks-0.9.6.tgz not in flight; adding
+627 verbose addRemoteTarball [ 'https://registry.npmjs.org/express-nunjucks/-/express-nunjucks-0.9.6.tgz',
+627 verbose addRemoteTarball   '4949a5fee57e85602bc2c1ef70543ed15f9896b9' ]
+628 http fetch 200 https://registry.npmjs.org/grunt-cli/-/grunt-cli-0.1.13.tgz
+629 http fetch 200 https://registry.npmjs.org/basic-auth/-/basic-auth-1.0.3.tgz
+630 http fetch 200 https://registry.npmjs.org/basic-auth-connect/-/basic-auth-connect-1.0.0.tgz
+631 http fetch 200 https://registry.npmjs.org/grunt-contrib-watch/-/grunt-contrib-watch-0.5.3.tgz
+632 silly addNameRange number 2 { name: 'govuk_template_mustache',
+632 silly addNameRange   range: '>=0.16.4 <0.17.0',
+632 silly addNameRange   hasData: true }
+633 silly addNameRange versions [ 'govuk_template_mustache',
+633 silly addNameRange   [ '0.2.1',
+633 silly addNameRange     '0.2.2',
+633 silly addNameRange     '0.3.2',
+633 silly addNameRange     '0.3.3',
+633 silly addNameRange     '0.3.4',
+633 silly addNameRange     '0.3.5',
+633 silly addNameRange     '0.3.6',
+633 silly addNameRange     '0.3.7',
+633 silly addNameRange     '0.3.8',
+633 silly addNameRange     '0.4.0',
+633 silly addNameRange     '0.4.1',
+633 silly addNameRange     '0.5.1',
+633 silly addNameRange     '0.6.0',
+633 silly addNameRange     '0.6.1',
+633 silly addNameRange     '0.6.2',
+633 silly addNameRange     '0.6.3',
+633 silly addNameRange     '0.7.0',
+633 silly addNameRange     '0.7.1',
+633 silly addNameRange     '0.8.0',
+633 silly addNameRange     '0.8.1',
+633 silly addNameRange     '0.9.0',
+633 silly addNameRange     '0.9.1',
+633 silly addNameRange     '0.10.0',
+633 silly addNameRange     '0.10.1',
+633 silly addNameRange     '0.11.0',
+633 silly addNameRange     '0.12.0',
+633 silly addNameRange     '0.13.0',
+633 silly addNameRange     '0.14.0',
+633 silly addNameRange     '0.14.1',
+633 silly addNameRange     '0.14.2',
+633 silly addNameRange     '0.14.3',
+633 silly addNameRange     '0.15.0',
+633 silly addNameRange     '0.15.1',
+633 silly addNameRange     '0.16.0',
+633 silly addNameRange     '0.16.1',
+633 silly addNameRange     '0.16.2',
+633 silly addNameRange     '0.16.3',
+633 silly addNameRange     '0.16.4',
+633 silly addNameRange     '0.17.0' ] ]
+634 silly addNamed govuk_template_mustache@0.16.4
+635 verbose addNamed "0.16.4" is a plain semver version for govuk_template_mustache
+636 info retry fetch attempt 1 at 11:32:38 AM
+637 info attempt registry request try #1 at 11:32:38 AM
+638 http fetch GET https://registry.npmjs.org/body-parser/-/body-parser-1.15.0.tgz
+639 info retry fetch attempt 1 at 11:32:38 AM
+640 info attempt registry request try #1 at 11:32:38 AM
+641 http fetch GET https://registry.npmjs.org/express/-/express-4.13.3.tgz
+642 silly fetchAndShaCheck shasum 857fcabfc3397d2625b8228262e86aa7a011b05d
+643 silly fetchAndShaCheck shasum b03acd566a2565ca96e99f44fd1417486b4df88d
+644 silly mapToRegistry name govuk_template_mustache
+645 silly mapToRegistry using default registry
+646 silly mapToRegistry registry https://registry.npmjs.org/
+647 silly mapToRegistry uri https://registry.npmjs.org/govuk_template_mustache
+648 verbose addRemoteTarball https://registry.npmjs.org/govuk_template_mustache/-/govuk_template_mustache-0.16.4.tgz not in flight; adding
+649 verbose addRemoteTarball [ 'https://registry.npmjs.org/govuk_template_mustache/-/govuk_template_mustache-0.16.4.tgz',
+649 verbose addRemoteTarball   '5af43b4bf843e9d5538baad1b98d315ec82355c4' ]
+650 silly fetchAndShaCheck shasum aed36cc6834069a6f189cc7222c6a1a811dc5b39
+651 silly fetchAndShaCheck shasum 480533c751a617366385c0fb9845184c05b2e4ab
+652 http fetch 200 https://registry.npmjs.org/portscanner/-/portscanner-1.0.0.tgz
+653 silly fetchAndShaCheck shasum 6162c48f42e1b9a96f5f930433e1f3a880d8a6ec
+654 info retry fetch attempt 1 at 11:32:38 AM
+655 info attempt registry request try #1 at 11:32:38 AM
+656 http fetch GET https://registry.npmjs.org/express-nunjucks/-/express-nunjucks-0.9.6.tgz
+657 silly fetchAndShaCheck shasum 03b83264086241261d59233e1581990d547ef45c
+658 silly fetchAndShaCheck shasum 57754f64f543fd7b0845707c818ece618f05ffdc
+659 silly fetchAndShaCheck shasum e9ebc4047631f5012d922770c39378133cad10f4
+660 silly fetchAndShaCheck shasum 41f55523e589405038ee3567958c62a5ed70551a
+661 silly fetchAndShaCheck shasum fdb0b43962ca7b40456a7c2bb48fe173da2d2122
+662 http fetch 200 https://registry.npmjs.org/grunt/-/grunt-0.4.5.tgz
+663 verbose addTmpTarball C:\Users\Mark.Barlow\AppData\Local\Temp\npm-10304-84655643\registry.npmjs.org\minimist\-\minimist-0.0.8.tgz not in flight; adding
+664 verbose addTmpTarball already have metadata; skipping unpack for minimist@0.0.8
+665 silly fetchAndShaCheck shasum 7d9eb5465d506fa14faaca47e6e8790a82c1c9ee
+666 verbose addTmpTarball C:\Users\Mark.Barlow\AppData\Local\Temp\npm-10304-84655643\registry.npmjs.org\consolidate\-\consolidate-0.14.0.tgz not in flight; adding
+667 verbose addTmpTarball already have metadata; skipping unpack for consolidate@0.14.0
+668 verbose addTmpTarball C:\Users\Mark.Barlow\AppData\Local\Temp\npm-10304-84655643\registry.npmjs.org\serve-favicon\-\serve-favicon-2.3.0.tgz not in flight; adding
+669 verbose addTmpTarball already have metadata; skipping unpack for serve-favicon@2.3.0
+670 info retry fetch attempt 1 at 11:32:38 AM
+671 info attempt registry request try #1 at 11:32:38 AM
+672 http fetch GET https://registry.npmjs.org/govuk_template_mustache/-/govuk_template_mustache-0.16.4.tgz
+673 verbose addTmpTarball C:\Users\Mark.Barlow\AppData\Local\Temp\npm-10304-84655643\registry.npmjs.org\grunt-sass\-\grunt-sass-1.1.0.tgz not in flight; adding
+674 verbose addTmpTarball already have metadata; skipping unpack for grunt-sass@1.1.0
+675 silly mapToRegistry name hogan.js
+676 silly mapToRegistry using default registry
+677 silly mapToRegistry registry https://registry.npmjs.org/
+678 silly mapToRegistry uri https://registry.npmjs.org/hogan.js
+679 verbose addRemoteTarball https://registry.npmjs.org/hogan.js/-/hogan.js-3.0.2.tgz not in flight; adding
+680 verbose addRemoteTarball [ 'https://registry.npmjs.org/hogan.js/-/hogan.js-3.0.2.tgz',
+680 verbose addRemoteTarball   '4cd9e1abd4294146e7679e41d7898732b02c7bfd' ]
+681 verbose addTmpTarball C:\Users\Mark.Barlow\AppData\Local\Temp\npm-10304-84655643\registry.npmjs.org\grunt-sync\-\grunt-sync-0.5.2.tgz not in flight; adding
+682 verbose addTmpTarball already have metadata; skipping unpack for grunt-sync@0.5.2
+683 silly fetchAndShaCheck shasum 3b5cfe393828b5160abc600e6270ebc2f1590558
+684 verbose addTmpTarball C:\Users\Mark.Barlow\AppData\Local\Temp\npm-10304-84655643\registry.npmjs.org\grunt-nodemon\-\grunt-nodemon-0.4.0.tgz not in flight; adding
+685 verbose addTmpTarball already have metadata; skipping unpack for grunt-nodemon@0.4.0
+686 verbose addTmpTarball C:\Users\Mark.Barlow\AppData\Local\Temp\npm-10304-84655643\registry.npmjs.org\prompt\-\prompt-0.2.14.tgz not in flight; adding
+687 verbose addTmpTarball already have metadata; skipping unpack for prompt@0.2.14
+688 verbose addTmpTarball C:\Users\Mark.Barlow\AppData\Local\Temp\npm-10304-84655643\registry.npmjs.org\grunt-cli\-\grunt-cli-0.1.13.tgz not in flight; adding
+689 verbose addTmpTarball already have metadata; skipping unpack for grunt-cli@0.1.13
+690 verbose addTmpTarball C:\Users\Mark.Barlow\AppData\Local\Temp\npm-10304-84655643\registry.npmjs.org\basic-auth\-\basic-auth-1.0.3.tgz not in flight; adding
+691 verbose addTmpTarball already have metadata; skipping unpack for basic-auth@1.0.3
+692 verbose addTmpTarball C:\Users\Mark.Barlow\AppData\Local\Temp\npm-10304-84655643\registry.npmjs.org\basic-auth-connect\-\basic-auth-connect-1.0.0.tgz not in flight; adding
+693 verbose addTmpTarball already have metadata; skipping unpack for basic-auth-connect@1.0.0
+694 silly mapToRegistry name express-writer
+695 silly mapToRegistry using default registry
+696 silly mapToRegistry registry https://registry.npmjs.org/
+697 silly mapToRegistry uri https://registry.npmjs.org/express-writer
+698 verbose addRemoteTarball https://registry.npmjs.org/express-writer/-/express-writer-0.0.4.tgz not in flight; adding
+699 verbose addRemoteTarball [ 'https://registry.npmjs.org/express-writer/-/express-writer-0.0.4.tgz',
+699 verbose addRemoteTarball   '8ddc14a2609bede51338563376e2f45e3b822c79' ]
+700 silly mapToRegistry name readdir
+701 silly mapToRegistry using default registry
+702 silly mapToRegistry registry https://registry.npmjs.org/
+703 silly mapToRegistry uri https://registry.npmjs.org/readdir
+704 verbose addRemoteTarball https://registry.npmjs.org/readdir/-/readdir-0.0.6.tgz not in flight; adding
+705 verbose addRemoteTarball [ 'https://registry.npmjs.org/readdir/-/readdir-0.0.6.tgz',
+705 verbose addRemoteTarball   '174d2a81dc4ef32fe3b1d0dfd75288ad50cd89cf' ]
+706 verbose addTmpTarball C:\Users\Mark.Barlow\AppData\Local\Temp\npm-10304-84655643\registry.npmjs.org\grunt-contrib-watch\-\grunt-contrib-watch-0.5.3.tgz not in flight; adding
+707 verbose addTmpTarball already have metadata; skipping unpack for grunt-contrib-watch@0.5.3
+708 silly fetchAndShaCheck shasum 56937cd5194324adff6d207631832a9d6ba4e7f0
+709 http fetch 200 https://registry.npmjs.org/express/-/express-4.13.3.tgz
+710 http fetch 200 https://registry.npmjs.org/body-parser/-/body-parser-1.15.0.tgz
+711 verbose addTmpTarball C:\Users\Mark.Barlow\AppData\Local\Temp\npm-10304-84655643\registry.npmjs.org\portscanner\-\portscanner-1.0.0.tgz not in flight; adding
+712 verbose addTmpTarball already have metadata; skipping unpack for portscanner@1.0.0
+713 info retry fetch attempt 1 at 11:32:38 AM
+714 info attempt registry request try #1 at 11:32:38 AM
+715 http fetch GET https://registry.npmjs.org/hogan.js/-/hogan.js-3.0.2.tgz
+716 silly addNameRange number 2 { name: 'govuk_frontend_toolkit',
+716 silly addNameRange   range: '>=4.6.0 <5.0.0',
+716 silly addNameRange   hasData: true }
+717 silly addNameRange versions [ 'govuk_frontend_toolkit',
+717 silly addNameRange   [ '0.12.6',
+717 silly addNameRange     '0.41.0',
+717 silly addNameRange     '0.41.1',
+717 silly addNameRange     '0.42.0',
+717 silly addNameRange     '0.43.0',
+717 silly addNameRange     '0.43.1',
+717 silly addNameRange     '0.44.0',
+717 silly addNameRange     '0.45.0',
+717 silly addNameRange     '0.46.0',
+717 silly addNameRange     '0.46.1',
+717 silly addNameRange     '0.47.0',
+717 silly addNameRange     '0.48.0',
+717 silly addNameRange     '1.0.0',
+717 silly addNameRange     '1.0.1',
+717 silly addNameRange     '1.1.0',
+717 silly addNameRange     '1.2.0',
+717 silly addNameRange     '1.3.0',
+717 silly addNameRange     '1.4.0',
+717 silly addNameRange     '1.5.0',
+717 silly addNameRange     '1.6.0',
+717 silly addNameRange     '1.6.1',
+717 silly addNameRange     '1.6.2',
+717 silly addNameRange     '1.7.0',
+717 silly addNameRange     '2.0.0',
+717 silly addNameRange     '2.0.1',
+717 silly addNameRange     '3.0.0',
+717 silly addNameRange     '3.0.1',
+717 silly addNameRange     '3.1.0',
+717 silly addNameRange     '3.2.0',
+717 silly addNameRange     '3.2.1',
+717 silly addNameRange     '3.3.0',
+717 silly addNameRange     '3.3.1',
+717 silly addNameRange     '3.4.0',
+717 silly addNameRange     '3.4.1',
+717 silly addNameRange     '3.4.2',
+717 silly addNameRange     '3.5.0',
+717 silly addNameRange     '3.5.1',
+717 silly addNameRange     '4.0.0',
+717 silly addNameRange     '4.0.1',
+717 silly addNameRange     '4.1.0',
+717 silly addNameRange     '4.1.1',
+717 silly addNameRange     '4.2.0',
+717 silly addNameRange     '4.2.1',
+717 silly addNameRange     '4.3.0',
+717 silly addNameRange     '4.4.0',
+717 silly addNameRange     '4.5.0',
+717 silly addNameRange     '4.6.0',
+717 silly addNameRange     '4.6.1',
+717 silly addNameRange     '4.7.0',
+717 silly addNameRange     '4.8.0',
+717 silly addNameRange     '4.8.1',
+717 silly addNameRange     '4.8.2',
+717 silly addNameRange     '4.9.0',
+717 silly addNameRange     '4.9.1' ] ]
+718 silly addNamed govuk_frontend_toolkit@4.9.1
+719 verbose addNamed "4.9.1" is a plain semver version for govuk_frontend_toolkit
+720 info retry fetch attempt 1 at 11:32:38 AM
+721 info attempt registry request try #1 at 11:32:38 AM
+722 http fetch GET https://registry.npmjs.org/express-writer/-/express-writer-0.0.4.tgz
+723 info retry fetch attempt 1 at 11:32:38 AM
+724 info attempt registry request try #1 at 11:32:38 AM
+725 http fetch GET https://registry.npmjs.org/readdir/-/readdir-0.0.6.tgz
+726 verbose addTmpTarball C:\Users\Mark.Barlow\AppData\Local\Temp\npm-10304-84655643\registry.npmjs.org\grunt\-\grunt-0.4.5.tgz not in flight; adding
+727 verbose addTmpTarball already have metadata; skipping unpack for grunt@0.4.5
+728 silly mapToRegistry name govuk_frontend_toolkit
+729 silly mapToRegistry using default registry
+730 silly mapToRegistry registry https://registry.npmjs.org/
+731 silly mapToRegistry uri https://registry.npmjs.org/govuk_frontend_toolkit
+732 verbose addRemoteTarball https://registry.npmjs.org/govuk_frontend_toolkit/-/govuk_frontend_toolkit-4.9.1.tgz not in flight; adding
+733 verbose addRemoteTarball [ 'https://registry.npmjs.org/govuk_frontend_toolkit/-/govuk_frontend_toolkit-4.9.1.tgz',
+733 verbose addRemoteTarball   'fa6967a3ab17dcd2d9252162c9d9f32ed68c5f6e' ]
+734 silly fetchAndShaCheck shasum 8168abaeaf9e77e300f7b3aef4df4b46e9b21b35
+735 http fetch 200 https://registry.npmjs.org/hogan.js/-/hogan.js-3.0.2.tgz
+736 info retry fetch attempt 1 at 11:32:38 AM
+737 info attempt registry request try #1 at 11:32:38 AM
+738 http fetch GET https://registry.npmjs.org/govuk_frontend_toolkit/-/govuk_frontend_toolkit-4.9.1.tgz
+739 verbose addTmpTarball C:\Users\Mark.Barlow\AppData\Local\Temp\npm-10304-84655643\registry.npmjs.org\body-parser\-\body-parser-1.15.0.tgz not in flight; adding
+740 verbose addTmpTarball already have metadata; skipping unpack for body-parser@1.15.0
+741 silly fetchAndShaCheck shasum ddb2f1fb4502bf33598d2b032b037960ca6c80a3
+742 http fetch 200 https://registry.npmjs.org/express-writer/-/express-writer-0.0.4.tgz
+743 http fetch 200 https://registry.npmjs.org/grunt-concurrent/-/grunt-concurrent-0.4.3.tgz
+744 http fetch 200 https://registry.npmjs.org/govuk_frontend_toolkit/-/govuk_frontend_toolkit-4.9.1.tgz
+745 http fetch 200 https://registry.npmjs.org/express-nunjucks/-/express-nunjucks-0.9.6.tgz
+746 http fetch 200 https://registry.npmjs.org/govuk_template_mustache/-/govuk_template_mustache-0.16.4.tgz
+747 http fetch 200 https://registry.npmjs.org/readdir/-/readdir-0.0.6.tgz
+748 silly cache afterAdd minimist@0.0.8
+749 verbose afterAdd \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\minimist\0.0.8\package\package.json not in flight; writing
+750 silly cache afterAdd serve-favicon@2.3.0
+751 verbose afterAdd \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\serve-favicon\2.3.0\package\package.json not in flight; writing
+752 silly cache afterAdd grunt-cli@0.1.13
+753 verbose afterAdd \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\grunt-cli\0.1.13\package\package.json not in flight; writing
+754 silly cache afterAdd grunt-sync@0.5.2
+755 verbose afterAdd \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\grunt-sync\0.5.2\package\package.json not in flight; writing
+756 silly cache afterAdd grunt-nodemon@0.4.0
+757 verbose afterAdd \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\grunt-nodemon\0.4.0\package\package.json not in flight; writing
+758 silly cache afterAdd grunt-sass@1.1.0
+759 verbose afterAdd \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\grunt-sass\1.1.0\package\package.json not in flight; writing
+760 http fetch 200 https://github.com/alphagov/govuk_template/releases/download/v0.16.4/jinja_govuk_template-0.16.4.tgz
+761 silly cache afterAdd consolidate@0.14.0
+762 verbose afterAdd \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\consolidate\0.14.0\package\package.json not in flight; writing
+763 silly cache afterAdd basic-auth@1.0.3
+764 verbose afterAdd \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\basic-auth\1.0.3\package\package.json not in flight; writing
+765 verbose addTmpTarball C:\Users\Mark.Barlow\AppData\Local\Temp\npm-10304-84655643\registry.npmjs.org\express\-\express-4.13.3.tgz not in flight; adding
+766 verbose addTmpTarball already have metadata; skipping unpack for express@4.13.3
+767 silly fetchAndShaCheck shasum 8ddc14a2609bede51338563376e2f45e3b822c79
+768 silly cache afterAdd prompt@0.2.14
+769 verbose afterAdd \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\prompt\0.2.14\package\package.json not in flight; writing
+770 silly fetchAndShaCheck shasum 2453490185594c89d8399f3b1843476f6869e49d
+771 silly cache afterAdd basic-auth-connect@1.0.0
+772 verbose afterAdd \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\basic-auth-connect\1.0.0\package\package.json not in flight; writing
+773 silly cache afterAdd grunt-contrib-watch@0.5.3
+774 verbose afterAdd \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\grunt-contrib-watch\0.5.3\package\package.json not in flight; writing
+775 silly fetchAndShaCheck shasum 4949a5fee57e85602bc2c1ef70543ed15f9896b9
+776 silly fetchAndShaCheck shasum 174d2a81dc4ef32fe3b1d0dfd75288ad50cd89cf
+777 verbose addTmpTarball C:\Users\Mark.Barlow\AppData\Local\Temp\npm-10304-84655643\registry.npmjs.org\express-writer\-\express-writer-0.0.4.tgz not in flight; adding
+778 verbose addTmpTarball already have metadata; skipping unpack for express-writer@0.0.4
+779 silly cache afterAdd portscanner@1.0.0
+780 verbose afterAdd \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\portscanner\1.0.0\package\package.json not in flight; writing
+781 verbose afterAdd \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\grunt-cli\0.1.13\package\package.json written
+782 verbose addTmpTarball C:\Users\Mark.Barlow\AppData\Local\Temp\npm-10304-84655643\registry.npmjs.org\grunt-concurrent\-\grunt-concurrent-0.4.3.tgz not in flight; adding
+783 verbose addTmpTarball already have metadata; skipping unpack for grunt-concurrent@0.4.3
+784 verbose afterAdd \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\minimist\0.0.8\package\package.json written
+785 verbose afterAdd \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\grunt-sync\0.5.2\package\package.json written
+786 verbose addTmpTarball C:\Users\Mark.Barlow\AppData\Local\Temp\npm-10304-84655643\registry.npmjs.org\express-nunjucks\-\express-nunjucks-0.9.6.tgz not in flight; adding
+787 verbose addTmpTarball already have metadata; skipping unpack for express-nunjucks@0.9.6
+788 verbose addTmpTarball C:\Users\Mark.Barlow\AppData\Local\Temp\npm-10304-84655643\registry.npmjs.org\readdir\-\readdir-0.0.6.tgz not in flight; adding
+789 verbose addTmpTarball already have metadata; skipping unpack for readdir@0.0.6
+790 verbose afterAdd \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\grunt-nodemon\0.4.0\package\package.json written
+791 verbose afterAdd \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\serve-favicon\2.3.0\package\package.json written
+792 silly cache afterAdd grunt@0.4.5
+793 verbose afterAdd \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\grunt\0.4.5\package\package.json not in flight; writing
+794 verbose afterAdd \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\grunt-sass\1.1.0\package\package.json written
+795 verbose afterAdd \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\consolidate\0.14.0\package\package.json written
+796 verbose afterAdd \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\basic-auth\1.0.3\package\package.json written
+797 verbose afterAdd \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\grunt-contrib-watch\0.5.3\package\package.json written
+798 verbose afterAdd \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\prompt\0.2.14\package\package.json written
+799 verbose afterAdd \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\basic-auth-connect\1.0.0\package\package.json written
+800 silly fetchAndShaCheck shasum 4cd9e1abd4294146e7679e41d7898732b02c7bfd
+801 silly cache afterAdd body-parser@1.15.0
+802 verbose afterAdd \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\body-parser\1.15.0\package\package.json not in flight; writing
+803 verbose afterAdd \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\portscanner\1.0.0\package\package.json written
+804 verbose afterAdd \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\grunt\0.4.5\package\package.json written
+805 silly cache afterAdd express@4.13.3
+806 verbose afterAdd \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\express\4.13.3\package\package.json not in flight; writing
+807 verbose addTmpTarball C:\Users\Mark.Barlow\AppData\Local\Temp\npm-10304-84655643\registry.npmjs.org\hogan.js\-\hogan.js-3.0.2.tgz not in flight; adding
+808 verbose addTmpTarball already have metadata; skipping unpack for hogan.js@3.0.2
+809 silly fetchAndShaCheck shasum fa6967a3ab17dcd2d9252162c9d9f32ed68c5f6e
+810 silly cache afterAdd express-writer@0.0.4
+811 verbose afterAdd \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\express-writer\0.0.4\package\package.json not in flight; writing
+812 verbose afterAdd \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\body-parser\1.15.0\package\package.json written
+813 silly cache afterAdd grunt-concurrent@0.4.3
+814 verbose afterAdd \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\grunt-concurrent\0.4.3\package\package.json not in flight; writing
+815 silly cache afterAdd readdir@0.0.6
+816 verbose afterAdd \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\readdir\0.0.6\package\package.json not in flight; writing
+817 silly cache afterAdd express-nunjucks@0.9.6
+818 verbose afterAdd \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\express-nunjucks\0.9.6\package\package.json not in flight; writing
+819 verbose afterAdd \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\express\4.13.3\package\package.json written
+820 verbose addTmpTarball C:\Users\Mark.Barlow\AppData\Local\Temp\npm-10304-84655643\registry.npmjs.org\govuk_frontend_toolkit\-\govuk_frontend_toolkit-4.9.1.tgz not in flight; adding
+821 verbose addTmpTarball already have metadata; skipping unpack for govuk_frontend_toolkit@4.9.1
+822 verbose afterAdd \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\express-writer\0.0.4\package\package.json written
+823 verbose afterAdd \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\grunt-concurrent\0.4.3\package\package.json written
+824 verbose afterAdd \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\express-nunjucks\0.9.6\package\package.json written
+825 verbose afterAdd \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\readdir\0.0.6\package\package.json written
+826 silly fetchAndShaCheck shasum 5af43b4bf843e9d5538baad1b98d315ec82355c4
+827 verbose addTmpTarball C:\Users\Mark.Barlow\AppData\Local\Temp\npm-10304-84655643\registry.npmjs.org\govuk_template_mustache\-\govuk_template_mustache-0.16.4.tgz not in flight; adding
+828 verbose addTmpTarball already have metadata; skipping unpack for govuk_template_mustache@0.16.4
+829 silly fetchAndShaCheck shasum 40a8978f89d7ce5c8f255cddea05d7dce8c75078
+830 verbose addTmpTarball C:\Users\Mark.Barlow\AppData\Local\Temp\npm-10304-84655643\github.com\alphagov\govuk_template\releases\download\v0.16.4\jinja_govuk_template-0.16.4.tgz not in flight; adding
+831 verbose addTmpTarball validating metadata from C:\Users\Mark.Barlow\AppData\Local\Temp\npm-10304-84655643\github.com\alphagov\govuk_template\releases\download\v0.16.4\jinja_govuk_template-0.16.4.tgz
+832 verbose tar unpack C:\Users\Mark.Barlow\AppData\Local\Temp\npm-10304-84655643\github.com\alphagov\govuk_template\releases\download\v0.16.4\jinja_govuk_template-0.16.4.tgz
+833 verbose tar unpacking to C:\Users\Mark.Barlow\AppData\Local\Temp\npm-10304-84655643\unpack-130a6bbfac0e
+834 silly gentlyRm C:\Users\Mark.Barlow\AppData\Local\Temp\npm-10304-84655643\unpack-130a6bbfac0e is being purged
+835 verbose gentlyRm don't care about contents; nuking C:\Users\Mark.Barlow\AppData\Local\Temp\npm-10304-84655643\unpack-130a6bbfac0e
+836 silly gunzTarPerm modes [ '777', '666' ]
+837 silly gunzTarPerm extractEntry
+838 silly gunzTarPerm modified mode [ '', 493, 511 ]
+839 silly gunzTarPerm extractEntry assets/
+840 silly gunzTarPerm modified mode [ 'assets/', 493, 511 ]
+841 silly gunzTarPerm extractEntry assets/stylesheets/
+842 silly gunzTarPerm modified mode [ 'assets/stylesheets/', 493, 511 ]
+843 silly gunzTarPerm extractEntry assets/stylesheets/govuk-template-print.css
+844 silly gunzTarPerm modified mode [ 'assets/stylesheets/govuk-template-print.css', 420, 438 ]
+845 silly gunzTarPerm extractEntry assets/stylesheets/govuk-template-ie7.css
+846 silly gunzTarPerm modified mode [ 'assets/stylesheets/govuk-template-ie7.css', 420, 438 ]
+847 silly gunzTarPerm extractEntry assets/stylesheets/govuk-template-ie6.css
+848 silly gunzTarPerm modified mode [ 'assets/stylesheets/govuk-template-ie6.css', 420, 438 ]
+849 silly gunzTarPerm extractEntry assets/stylesheets/govuk-template-ie8.css
+850 silly gunzTarPerm modified mode [ 'assets/stylesheets/govuk-template-ie8.css', 420, 438 ]
+851 silly gunzTarPerm extractEntry assets/stylesheets/images/
+852 silly gunzTarPerm modified mode [ 'assets/stylesheets/images/', 493, 511 ]
+853 silly gunzTarPerm extractEntry assets/stylesheets/images/govuk-crest-ie.png
+854 silly gunzTarPerm modified mode [ 'assets/stylesheets/images/govuk-crest-ie.png', 420, 438 ]
+855 silly gunzTarPerm extractEntry assets/stylesheets/images/open-government-licence_2x.png
+856 silly gunzTarPerm modified mode [ 'assets/stylesheets/images/open-government-licence_2x.png',
+856 silly gunzTarPerm   420,
+856 silly gunzTarPerm   438 ]
+857 silly gunzTarPerm extractEntry assets/stylesheets/images/open-government-licence.png
+858 silly gunzTarPerm modified mode [ 'assets/stylesheets/images/open-government-licence.png',
+858 silly gunzTarPerm   420,
+858 silly gunzTarPerm   438 ]
+859 silly gunzTarPerm extractEntry assets/stylesheets/images/close.png
+860 silly gunzTarPerm modified mode [ 'assets/stylesheets/images/close.png', 420, 438 ]
+861 silly gunzTarPerm extractEntry assets/stylesheets/images/govuk-crest-2x.png
+862 silly gunzTarPerm modified mode [ 'assets/stylesheets/images/govuk-crest-2x.png', 420, 438 ]
+863 silly gunzTarPerm extractEntry assets/stylesheets/images/gov.uk_logotype_crown-1x.png
+864 silly gunzTarPerm modified mode [ 'assets/stylesheets/images/gov.uk_logotype_crown-1x.png',
+864 silly gunzTarPerm   420,
+864 silly gunzTarPerm   438 ]
+865 silly gunzTarPerm extractEntry assets/stylesheets/images/gov.uk_logotype_crown.png
+866 silly gunzTarPerm modified mode [ 'assets/stylesheets/images/gov.uk_logotype_crown.png',
+866 silly gunzTarPerm   420,
+866 silly gunzTarPerm   438 ]
+867 silly gunzTarPerm extractEntry assets/stylesheets/images/govuk-crest.png
+868 silly gunzTarPerm modified mode [ 'assets/stylesheets/images/govuk-crest.png', 420, 438 ]
+869 silly gunzTarPerm extractEntry assets/stylesheets/fonts.css
+870 silly gunzTarPerm modified mode [ 'assets/stylesheets/fonts.css', 420, 438 ]
+871 silly gunzTarPerm extractEntry assets/stylesheets/external-links/
+872 silly gunzTarPerm modified mode [ 'assets/stylesheets/external-links/', 493, 511 ]
+873 silly gunzTarPerm extractEntry assets/stylesheets/external-links/external-link.png
+874 silly gunzTarPerm modified mode [ 'assets/stylesheets/external-links/external-link.png',
+874 silly gunzTarPerm   420,
+874 silly gunzTarPerm   438 ]
+875 silly gunzTarPerm extractEntry assets/stylesheets/external-links/external-link-black-24x24.png
+876 silly gunzTarPerm modified mode [ 'assets/stylesheets/external-links/external-link-black-24x24.png',
+876 silly gunzTarPerm   420,
+876 silly gunzTarPerm   438 ]
+877 silly gunzTarPerm extractEntry assets/stylesheets/external-links/external-link-24x24.png
+878 silly gunzTarPerm modified mode [ 'assets/stylesheets/external-links/external-link-24x24.png',
+878 silly gunzTarPerm   420,
+878 silly gunzTarPerm   438 ]
+879 silly gunzTarPerm extractEntry assets/stylesheets/external-links/external-link-black-12x12.png
+880 silly gunzTarPerm modified mode [ 'assets/stylesheets/external-links/external-link-black-12x12.png',
+880 silly gunzTarPerm   420,
+880 silly gunzTarPerm   438 ]
+881 silly gunzTarPerm extractEntry assets/stylesheets/fonts-ie8.css
+882 silly gunzTarPerm modified mode [ 'assets/stylesheets/fonts-ie8.css', 420, 438 ]
+883 silly gunzTarPerm extractEntry assets/stylesheets/fonts/
+884 silly gunzTarPerm modified mode [ 'assets/stylesheets/fonts/', 493, 511 ]
+885 silly gunzTarPerm extractEntry assets/stylesheets/fonts/GDSTransportWebsite-Bold.eot
+886 silly gunzTarPerm modified mode [ 'assets/stylesheets/fonts/GDSTransportWebsite-Bold.eot',
+886 silly gunzTarPerm   420,
+886 silly gunzTarPerm   438 ]
+887 silly gunzTarPerm extractEntry assets/stylesheets/fonts/GDSTransportWebsite.eot
+888 silly gunzTarPerm modified mode [ 'assets/stylesheets/fonts/GDSTransportWebsite.eot', 420, 438 ]
+889 silly gunzTarPerm extractEntry assets/stylesheets/fonts/GDSTransportTabular-Bold.eot
+890 silly gunzTarPerm modified mode [ 'assets/stylesheets/fonts/GDSTransportTabular-Bold.eot',
+890 silly gunzTarPerm   420,
+890 silly gunzTarPerm   438 ]
+891 silly gunzTarPerm extractEntry assets/stylesheets/fonts/GDSTransportTabular-Light.eot
+892 silly gunzTarPerm modified mode [ 'assets/stylesheets/fonts/GDSTransportTabular-Light.eot',
+892 silly gunzTarPerm   420,
+892 silly gunzTarPerm   438 ]
+893 silly gunzTarPerm extractEntry assets/stylesheets/govuk-template.css
+894 silly gunzTarPerm modified mode [ 'assets/stylesheets/govuk-template.css', 420, 438 ]
+895 silly gunzTarPerm extractEntry assets/images/
+896 silly gunzTarPerm modified mode [ 'assets/images/', 493, 511 ]
+897 silly gunzTarPerm extractEntry assets/images/apple-touch-icon-120x120.png
+898 silly gunzTarPerm modified mode [ 'assets/images/apple-touch-icon-120x120.png', 420, 438 ]
+899 silly gunzTarPerm extractEntry assets/images/gov.uk_logotype_crown_invert_trans.png
+900 silly gunzTarPerm modified mode [ 'assets/images/gov.uk_logotype_crown_invert_trans.png',
+900 silly gunzTarPerm   420,
+900 silly gunzTarPerm   438 ]
+901 silly gunzTarPerm extractEntry assets/images/opengraph-image.png
+902 silly gunzTarPerm modified mode [ 'assets/images/opengraph-image.png', 420, 438 ]
+903 silly gunzTarPerm extractEntry assets/images/favicon.ico
+904 silly gunzTarPerm modified mode [ 'assets/images/favicon.ico', 420, 438 ]
+905 silly gunzTarPerm extractEntry assets/images/gov.uk_logotype_crown_invert.png
+906 silly gunzTarPerm modified mode [ 'assets/images/gov.uk_logotype_crown_invert.png', 420, 438 ]
+907 silly gunzTarPerm extractEntry assets/images/apple-touch-icon-76x76.png
+908 silly gunzTarPerm modified mode [ 'assets/images/apple-touch-icon-76x76.png', 420, 438 ]
+909 silly gunzTarPerm extractEntry assets/images/apple-touch-icon-60x60.png
+910 silly gunzTarPerm modified mode [ 'assets/images/apple-touch-icon-60x60.png', 420, 438 ]
+911 silly gunzTarPerm extractEntry assets/images/apple-touch-icon-152x152.png
+912 silly gunzTarPerm modified mode [ 'assets/images/apple-touch-icon-152x152.png', 420, 438 ]
+913 silly gunzTarPerm extractEntry assets/javascripts/
+914 silly gunzTarPerm modified mode [ 'assets/javascripts/', 493, 511 ]
+915 silly gunzTarPerm extractEntry assets/javascripts/ie.js
+916 silly gunzTarPerm modified mode [ 'assets/javascripts/ie.js', 420, 438 ]
+917 silly gunzTarPerm extractEntry assets/javascripts/vendor/
+918 silly gunzTarPerm modified mode [ 'assets/javascripts/vendor/', 493, 511 ]
+919 silly gunzTarPerm extractEntry assets/javascripts/vendor/goog/
+920 silly gunzTarPerm modified mode [ 'assets/javascripts/vendor/goog/', 493, 511 ]
+921 silly gunzTarPerm extractEntry assets/javascripts/vendor/goog/webfont-debug.js
+922 silly gunzTarPerm modified mode [ 'assets/javascripts/vendor/goog/webfont-debug.js', 420, 438 ]
+923 silly gunzTarPerm extractEntry assets/javascripts/govuk-template.js
+924 silly gunzTarPerm modified mode [ 'assets/javascripts/govuk-template.js', 420, 438 ]
+925 silly gunzTarPerm extractEntry VERSION
+926 silly gunzTarPerm modified mode [ 'VERSION', 420, 438 ]
+927 silly gunzTarPerm extractEntry package.json
+928 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+929 silly gunzTarPerm extractEntry views/
+930 silly gunzTarPerm modified mode [ 'views/', 493, 511 ]
+931 silly gunzTarPerm extractEntry views/layouts/
+932 silly gunzTarPerm modified mode [ 'views/layouts/', 493, 511 ]
+933 silly gunzTarPerm extractEntry views/layouts/govuk_template.html
+934 silly gunzTarPerm modified mode [ 'views/layouts/govuk_template.html', 420, 438 ]
+935 silly cache afterAdd hogan.js@3.0.2
+936 verbose afterAdd \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\hogan.js\3.0.2\package\package.json not in flight; writing
+937 silly cache afterAdd govuk_frontend_toolkit@4.9.1
+938 verbose afterAdd \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\govuk_frontend_toolkit\4.9.1\package\package.json not in flight; writing
+939 verbose afterAdd \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\hogan.js\3.0.2\package\package.json written
+940 verbose afterAdd \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\govuk_frontend_toolkit\4.9.1\package\package.json written
+941 silly cache afterAdd govuk_template_jinja@0.16.4
+942 verbose afterAdd \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\govuk_template_jinja\0.16.4\package\package.json not in flight; writing
+943 silly cache afterAdd govuk_template_mustache@0.16.4
+944 verbose afterAdd \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\govuk_template_mustache\0.16.4\package\package.json not in flight; writing
+945 verbose afterAdd \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\govuk_template_jinja\0.16.4\package\package.json written
+946 verbose afterAdd \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\govuk_template_mustache\0.16.4\package\package.json written
+947 verbose git clone --template=\\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\_git-remotes\_templates --mirror git://github.com/alphagov/govuk_elements.git \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\_git-remotes\git-github-com-alphagov-govuk-elements-git-703cb2a8: Cloning into bare repository '\\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\_git-remotes\git-github-com-alphagov-govuk-elements-git-703cb2a8'...
+947 verbose git clone --template=\\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\_git-remotes\_templates --mirror git://github.com/alphagov/govuk_elements.git \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\_git-remotes\git-github-com-alphagov-govuk-elements-git-703cb2a8: fatal: unable to connect to github.com:
+947 verbose git clone --template=\\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\_git-remotes\_templates --mirror git://github.com/alphagov/govuk_elements.git \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\_git-remotes\git-github-com-alphagov-govuk-elements-git-703cb2a8: github.com[0: 192.30.252.121]: errno=No error
+948 silly tryHTTPS attempting to clone git+https://github.com/alphagov/govuk_elements.git#v1.1.1
+949 silly tryClone cloning alphagov/govuk_elements#v1.1.1 via git+https://github.com/alphagov/govuk_elements.git#v1.1.1
+950 verbose tryClone https-github-com-alphagov-govuk-elements-git-5058373e not in flight; caching
+951 info git [ 'clone',
+951 info git   '--template=\\\\u-kcs-nas01\\users$\\Mark.Barlow\\Application Data\\npm-cache\\_git-remotes\\_templates',
+951 info git   '--mirror',
+951 info git   'https://github.com/alphagov/govuk_elements.git',
+951 info git   '\\\\u-kcs-nas01\\users$\\Mark.Barlow\\Application Data\\npm-cache\\_git-remotes\\https-github-com-alphagov-govuk-elements-git-5058373e' ]
+952 verbose mirrorRemote alphagov/govuk_elements#v1.1.1 git clone https://github.com/alphagov/govuk_elements.git
+953 verbose setPermissions alphagov/govuk_elements#v1.1.1 skipping chownr on Windows
+954 verbose resolveHead alphagov/govuk_elements#v1.1.1 original treeish: v1.1.1
+955 info git [ 'rev-list', '-n1', 'v1.1.1' ]
+956 silly resolveHead alphagov/govuk_elements#v1.1.1 resolved treeish: b33ae8b16a677239a9bae3613c1765ea7eb68028
+957 verbose resolveHead alphagov/govuk_elements#v1.1.1 resolved Git URL: git+https://github.com/alphagov/govuk_elements.git#b33ae8b16a677239a9bae3613c1765ea7eb68028
+958 silly resolveHead Git working directory: C:\Users\Mark.Barlow\AppData\Local\Temp\npm-10304-84655643\git-cache-26d3210815b7\b33ae8b16a677239a9bae3613c1765ea7eb68028
+959 info git [ 'clone',
+959 info git   '\\\\u-kcs-nas01\\users$\\Mark.Barlow\\Application Data\\npm-cache\\_git-remotes\\https-github-com-alphagov-govuk-elements-git-5058373e',
+959 info git   'C:\\Users\\Mark.Barlow\\AppData\\Local\\Temp\\npm-10304-84655643\\git-cache-26d3210815b7\\b33ae8b16a677239a9bae3613c1765ea7eb68028' ]
+960 error git clone \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\_git-remotes\https-github-com-alphagov-govuk-elements-git-5058373e C:\Users\Mark.Barlow\AppData\Local\Temp\npm-10304-84655643\git-cache-26d3210815b7\b33ae8b16a677239a9bae3613c1765ea7eb68028: Cloning into 'C:\Users\Mark.Barlow\AppData\Local\Temp\npm-10304-84655643\git-cache-26d3210815b7\b33ae8b16a677239a9bae3613c1765ea7eb68028'...
+960 error git clone \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\_git-remotes\https-github-com-alphagov-govuk-elements-git-5058373e C:\Users\Mark.Barlow\AppData\Local\Temp\npm-10304-84655643\git-cache-26d3210815b7\b33ae8b16a677239a9bae3613c1765ea7eb68028: fatal: '\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\_git-remotes\https-github-com-alphagov-govuk-elements-git-5058373e' does not appear to be a git repository
+960 error git clone \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\_git-remotes\https-github-com-alphagov-govuk-elements-git-5058373e C:\Users\Mark.Barlow\AppData\Local\Temp\npm-10304-84655643\git-cache-26d3210815b7\b33ae8b16a677239a9bae3613c1765ea7eb68028: fatal: Could not read from remote repository.
+960 error git clone \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\_git-remotes\https-github-com-alphagov-govuk-elements-git-5058373e C:\Users\Mark.Barlow\AppData\Local\Temp\npm-10304-84655643\git-cache-26d3210815b7\b33ae8b16a677239a9bae3613c1765ea7eb68028:
+960 error git clone \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\_git-remotes\https-github-com-alphagov-govuk-elements-git-5058373e C:\Users\Mark.Barlow\AppData\Local\Temp\npm-10304-84655643\git-cache-26d3210815b7\b33ae8b16a677239a9bae3613c1765ea7eb68028: Please make sure you have the correct access rights
+960 error git clone \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\_git-remotes\https-github-com-alphagov-govuk-elements-git-5058373e C:\Users\Mark.Barlow\AppData\Local\Temp\npm-10304-84655643\git-cache-26d3210815b7\b33ae8b16a677239a9bae3613c1765ea7eb68028: and the repository exists.
+961 silly trySSH attempting to clone git@github.com:alphagov/govuk_elements.git#v1.1.1
+962 silly tryClone cloning alphagov/govuk_elements#v1.1.1 via git@github.com:alphagov/govuk_elements.git#v1.1.1
+963 verbose tryClone git-github-com-alphagov-govuk-elements-git-4c4479a7 not in flight; caching
+964 info git [ 'clone',
+964 info git   '--template=\\\\u-kcs-nas01\\users$\\Mark.Barlow\\Application Data\\npm-cache\\_git-remotes\\_templates',
+964 info git   '--mirror',
+964 info git   'git@github.com:alphagov/govuk_elements.git',
+964 info git   '\\\\u-kcs-nas01\\users$\\Mark.Barlow\\Application Data\\npm-cache\\_git-remotes\\git-github-com-alphagov-govuk-elements-git-4c4479a7' ]
+965 verbose mirrorRemote alphagov/govuk_elements#v1.1.1 git clone git@github.com:alphagov/govuk_elements.git
+966 verbose setPermissions alphagov/govuk_elements#v1.1.1 skipping chownr on Windows
+967 verbose resolveHead alphagov/govuk_elements#v1.1.1 original treeish: v1.1.1
+968 info git [ 'rev-list', '-n1', 'v1.1.1' ]
+969 silly resolveHead alphagov/govuk_elements#v1.1.1 resolved treeish: b33ae8b16a677239a9bae3613c1765ea7eb68028
+970 verbose resolveHead alphagov/govuk_elements#v1.1.1 resolved Git URL: git+ssh://git@github.com/alphagov/govuk_elements.git#b33ae8b16a677239a9bae3613c1765ea7eb68028
+971 silly resolveHead Git working directory: C:\Users\Mark.Barlow\AppData\Local\Temp\npm-10304-84655643\git-cache-1c6cd8619c6b\b33ae8b16a677239a9bae3613c1765ea7eb68028
+972 info git [ 'clone',
+972 info git   '\\\\u-kcs-nas01\\users$\\Mark.Barlow\\Application Data\\npm-cache\\_git-remotes\\git-github-com-alphagov-govuk-elements-git-4c4479a7',
+972 info git   'C:\\Users\\Mark.Barlow\\AppData\\Local\\Temp\\npm-10304-84655643\\git-cache-1c6cd8619c6b\\b33ae8b16a677239a9bae3613c1765ea7eb68028' ]
+973 error git clone \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\_git-remotes\git-github-com-alphagov-govuk-elements-git-4c4479a7 C:\Users\Mark.Barlow\AppData\Local\Temp\npm-10304-84655643\git-cache-1c6cd8619c6b\b33ae8b16a677239a9bae3613c1765ea7eb68028: Cloning into 'C:\Users\Mark.Barlow\AppData\Local\Temp\npm-10304-84655643\git-cache-1c6cd8619c6b\b33ae8b16a677239a9bae3613c1765ea7eb68028'...
+973 error git clone \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\_git-remotes\git-github-com-alphagov-govuk-elements-git-4c4479a7 C:\Users\Mark.Barlow\AppData\Local\Temp\npm-10304-84655643\git-cache-1c6cd8619c6b\b33ae8b16a677239a9bae3613c1765ea7eb68028: fatal: '\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\_git-remotes\git-github-com-alphagov-govuk-elements-git-4c4479a7' does not appear to be a git repository
+973 error git clone \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\_git-remotes\git-github-com-alphagov-govuk-elements-git-4c4479a7 C:\Users\Mark.Barlow\AppData\Local\Temp\npm-10304-84655643\git-cache-1c6cd8619c6b\b33ae8b16a677239a9bae3613c1765ea7eb68028: fatal: Could not read from remote repository.
+973 error git clone \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\_git-remotes\git-github-com-alphagov-govuk-elements-git-4c4479a7 C:\Users\Mark.Barlow\AppData\Local\Temp\npm-10304-84655643\git-cache-1c6cd8619c6b\b33ae8b16a677239a9bae3613c1765ea7eb68028:
+973 error git clone \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\_git-remotes\git-github-com-alphagov-govuk-elements-git-4c4479a7 C:\Users\Mark.Barlow\AppData\Local\Temp\npm-10304-84655643\git-cache-1c6cd8619c6b\b33ae8b16a677239a9bae3613c1765ea7eb68028: Please make sure you have the correct access rights
+973 error git clone \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\_git-remotes\git-github-com-alphagov-govuk-elements-git-4c4479a7 C:\Users\Mark.Barlow\AppData\Local\Temp\npm-10304-84655643\git-cache-1c6cd8619c6b\b33ae8b16a677239a9bae3613c1765ea7eb68028: and the repository exists.
+974 verbose stack Error: Command failed: git -c core.longpaths=true clone \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\_git-remotes\git-github-com-alphagov-govuk-elements-git-4c4479a7 C:\Users\Mark.Barlow\AppData\Local\Temp\npm-10304-84655643\git-cache-1c6cd8619c6b\b33ae8b16a677239a9bae3613c1765ea7eb68028
+974 verbose stack Cloning into 'C:\Users\Mark.Barlow\AppData\Local\Temp\npm-10304-84655643\git-cache-1c6cd8619c6b\b33ae8b16a677239a9bae3613c1765ea7eb68028'...
+974 verbose stack fatal: '\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\_git-remotes\git-github-com-alphagov-govuk-elements-git-4c4479a7' does not appear to be a git repository
+974 verbose stack fatal: Could not read from remote repository.
+974 verbose stack
+974 verbose stack Please make sure you have the correct access rights
+974 verbose stack and the repository exists.
+974 verbose stack
+974 verbose stack     at ChildProcess.exithandler (child_process.js:203:12)
+974 verbose stack     at emitTwo (events.js:87:13)
+974 verbose stack     at ChildProcess.emit (events.js:172:7)
+974 verbose stack     at maybeClose (internal/child_process.js:818:16)
+974 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+975 verbose cwd C:\Users\Mark.Barlow\GitHub\mb-prototype-test
+976 error Windows_NT 6.1.7601
+977 error argv "C:\\Program Files (x86)\\nodejs\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+978 error node v4.2.2
+979 error npm  v2.14.7
+980 error code 128
+981 error Command failed: git -c core.longpaths=true clone \\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\_git-remotes\git-github-com-alphagov-govuk-elements-git-4c4479a7 C:\Users\Mark.Barlow\AppData\Local\Temp\npm-10304-84655643\git-cache-1c6cd8619c6b\b33ae8b16a677239a9bae3613c1765ea7eb68028
+981 error Cloning into 'C:\Users\Mark.Barlow\AppData\Local\Temp\npm-10304-84655643\git-cache-1c6cd8619c6b\b33ae8b16a677239a9bae3613c1765ea7eb68028'...
+981 error fatal: '\u-kcs-nas01\users$\Mark.Barlow\Application Data\npm-cache\_git-remotes\git-github-com-alphagov-govuk-elements-git-4c4479a7' does not appear to be a git repository
+981 error fatal: Could not read from remote repository.
+981 error
+981 error Please make sure you have the correct access rights
+981 error and the repository exists.
+982 error If you need help, you may report this error at:
+982 error     <https://github.com/npm/npm/issues>
+983 verbose exit [ 1, true ]
