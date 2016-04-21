@@ -1,7 +1,7 @@
 {% extends "layout.html" %}
 
 {% block page_title %}
-  Example page
+  Branching test page
 {% endblock %}
 
 {% block content %}
@@ -36,16 +36,22 @@
               What do you want to get in touch about?
             </legend>
 
-            <label for="radio-part-2" class="block-label">
+            <label for="radio-part-1" class="block-label">
               <input id="radio-visa" type="radio" name="contactroute" value="visa">
               <span class="heading-small">Visas</span><br>
-              Some text about visas needs a bit more to reach the full width of the one below
+              Some text about visas we don't do them really you know, no we don't
             </label>
 
-            <label for="radio-part-3" class="block-label">
+            <label for="radio-part-2" class="block-label">
               <input id="radio-etd" type="radio" name="contactroute" value="etd">
               <span class="heading-small">Emergency travel document</span><br>
               Some text about emergency travel documents or lost passports and related problems
+            </label>
+
+            <label for="radio-part-3" class="block-label">
+              <input id="radio-" type="radio" name="contactroute" value="everything-else">
+              <span class="heading-small">Everything else</span><br>
+              If you're not sure or are chancing it try this choice instead
             </label>
 
           </fieldset>

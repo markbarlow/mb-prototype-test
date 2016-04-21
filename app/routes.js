@@ -52,11 +52,20 @@ router.get('/contact_details', function (req, res) {
   if (contactroute == "visa"){
 
     // redirect to the relevant page
-    res.redirect("contact_visa");
+     res.redirect("contact_visa");
+   }  
 
-  } else {
 
-    // if over18 is any other value (or is missing) render the page requested
+  else if (contactroute == "etd"){
+
+    // redirect to the relevant page
+    res.redirect("contact_etd");
+  }
+
+
+ else {
+
+    // if contactroute is any other value (or is missing) render the page requested
     res.render('contact_details');
 
   }
