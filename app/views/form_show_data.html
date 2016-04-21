@@ -9,8 +9,11 @@
 <main id="content" role="main">
 
   <h1 class="heading-large">
-    Sending in variables from <code class="code">/routes.js</code> 
+    Sending in data from last page  
   </h1>
+
+
+<p>This data is coming via from <code class="code">/routes.js</code> which captures and extracts it</p>
 
   <table class="check-your-answers">
 
@@ -32,10 +35,10 @@
           Your name
         </td>
         <td>
-          {{ fullname }}<br>
+          {{ fullname_display }}<br>
         </td>
         <td class="change-answer">
-          <a href="#">
+          <a href="form_post_data">
             Change <span class="visuallyhidden">your name</span>
           </a>
         </td>
@@ -45,10 +48,10 @@
           Comment
         </td>
         <td>
-          {{ comment }}
+          {{ comment_display }}
         </td>
         <td class="change-answer">
-          <a href="#">
+          <a href="form_post_data">
             Change <span class="visuallyhidden">Producer name</span>
           </a>
         </td>
@@ -56,15 +59,7 @@
     </tbody>
   </table>
 
-  <h2 class="heading-medium">Now send your application</h2>
 
-  <p class="text">
-    By submitting this notification you are confirming that, to the best of your knowledge, the details you are providing are correct.
-  </p>
-
-  <div class="form-group">
-    <a href="confirmation-page" class="button">Accept and send application</a>
-  </div>
 
 </main>
 

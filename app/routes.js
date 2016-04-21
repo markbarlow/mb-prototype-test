@@ -73,13 +73,32 @@ router.get('/contact_details', function (req, res) {
 });
 
 
-// Passing data into a page
+/*
+// Passing data into a page, static version - this works but replaced with more useful dynamic input one below
 
 router.get('/form_show_data', function (req, res) {
 
   res.render('form_show_data', { 'fullname' : 'Mark Barlow', 'comment' : 'some comment text' });
 
 });
+*/
+
+
+// Passing data into a page, dynamic version
+// this is going from fullname (input name in form_post_data) -> fullname_form (captured as variable here) -> fullname_display (the variable in form_show_data html source)
+
+router.get('/form_show_data', function (req, res) {
+
+// get the answer from the query string (?fullnamename=john) and set it as a variable so you can use it
+  var fullname_form = req.query.fullname;
+  var comment_form = req.query.comment;
+
+// now send that variable to the page which has variable tags for fullname_display etc
+  res.render('form_show_data', { 'fullname_display' : fullname_form, 'comment_display' : comment_form });
+
+
+});
+
 
 
 
