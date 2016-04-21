@@ -73,7 +73,13 @@ router.get('/contact_details', function (req, res) {
 });
 
 
+// Passing data into a page
 
+router.get('/form_show_data', function (req, res) {
+
+  res.render('form_show_data', { 'fullname' : 'Mark Barlow', 'comment' : 'some comment text' });
+
+});
 
 
 

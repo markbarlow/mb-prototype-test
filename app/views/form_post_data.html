@@ -8,7 +8,7 @@
 <main id="content" role="main">
 
 
-  <form action="/" method="post" class="form">
+  <form action="/form_show_data" method="get" class="form">
 
     <h1 class="form-title heading-large">
       Your details
@@ -18,18 +18,18 @@
     <div class="form-group">
       <label class="form-label-bold" for="full-name">Full name</label>
       <p class="form-hint">As shown on your birth certificate or passport</p>
-      <input type="text" class="form-control" id="full-name">
+      <input type="text" class="form-control" id="full-name" name="fullname" value="">
     </div>
 
     <!-- Text input -->
     <div class="form-group">
       <label class="form-label-bold" for="ni-number">
-        Post some text
+        Comment
         <span class="form-hint">
           Put any text in here to post to the next page
         </span>
       </label>
-      <input type="text" class="form-control" id="ni-number">
+      <input type="text" class="form-control" id="ni-number" name="comment" value="">
     </div>
 
  

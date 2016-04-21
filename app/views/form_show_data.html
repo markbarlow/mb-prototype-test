@@ -1,0 +1,73 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Example of using variables taken from form
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+
+  <h1 class="heading-large">
+    Sending in variables from <code class="code">/routes.js</code> 
+  </h1>
+
+  <table class="check-your-answers">
+
+    <thead>
+      <tr>
+        <th colspan="2">
+          <h2 class="heading-medium">
+            Your data
+          </h2>
+        </th>
+        <th>
+        </th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>
+          Your name
+        </td>
+        <td>
+          {{ fullname }}<br>
+        </td>
+        <td class="change-answer">
+          <a href="#">
+            Change <span class="visuallyhidden">your name</span>
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Comment
+        </td>
+        <td>
+          {{ comment }}
+        </td>
+        <td class="change-answer">
+          <a href="#">
+            Change <span class="visuallyhidden">Producer name</span>
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2 class="heading-medium">Now send your application</h2>
+
+  <p class="text">
+    By submitting this notification you are confirming that, to the best of your knowledge, the details you are providing are correct.
+  </p>
+
+  <div class="form-group">
+    <a href="confirmation-page" class="button">Accept and send application</a>
+  </div>
+
+</main>
+
+{% endblock %}
+
+
