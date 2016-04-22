@@ -1,0 +1,60 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Addresses in application
+{% endblock %}
+
+{% block content %}
+<main id="content" role="main">
+
+  <div class="grid-row">
+    <div class="column-two-thirds">
+
+      <form action="" method="get" class="form">
+
+        <h1 class="heading-xlarge">
+          Return address details
+        </h1>
+
+        <p>
+          Do you want to use one of the addresses saved in your account?
+        </p>
+
+        <div class="form-group">
+          <fieldset>
+
+            <legend class="visuallyhidden">
+              What do you want to get in touch about?
+            </legend>
+
+            <label for="radio-part-1" class="block-label">
+              <input id="radio-visa" type="radio" name="contactroute" value="visa">
+              <span class="heading-small">Yes, use this address:</span><br>Mark Barlow,
+              118, Oakfield Road, London, N10 6LL, United Kingdom
+            </label>
+
+            <label for="radio-part-2" class="block-label">
+              <input id="radio-etd" type="radio" name="contactroute" value="etd">
+              <span class="heading-small">Yes, use this address:</span><br>Mark Barlow, 
+              FCO, King Charles Street, London, SW1A 2AH, United Kingdom
+            </label>
+
+            <label for="radio-part-3" class="block-label">
+              <input id="radio-" type="radio" name="contactroute" value="everything-else">
+              <span class="heading-small">No, I'll enter a new address</span><br>
+              
+            </label>
+
+          </fieldset>
+        </div>
+
+        <div class="form-group">
+          <input type="submit" class="button" value="Continue">
+        </div>
+
+      </form>
+
+    </div>
+  </div>
+</main>
+{% endblock %}
