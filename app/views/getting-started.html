@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="generator" content="CoffeeCup HTML Editor (www.coffeecup.com)">
+    <meta name="dcterms.created" content="Wed, 28 Sep 2016 15:56:25 GMT">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title></title>
+    
+    <!--[if IE]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+  <div class="grid-row">
+    <div class="column-two-thirds">
+
+      <h1 class="heading-xlarge">Getting started with the kit and github</h1>
+
+      <p>
+        Get the kit and install everything from <a href="https://github.com/alphagov/govuk_prototype_kit">https://github.com/alphagov/govuk_prototype_kit</a> - lots of instructions there. Example set up
+	
+	<!--
+	Linking to an existing heroku app rather than creating a new one: say your friend created an app on heroku but you've been working on the same code directly from github, when it comes time to push from your local repo to github you'll need to:
+git remote add heroku git@heroku.com:YOURAPP.git
+then you can
+git push heroku
+	-->
+		</p>
+		<p>
+		<img src="i/github-heroku-prototype.jpg"
+      </p>
+      <p>
+        Github circle of safety, basic
+		</p>
+		<p>
+		<img src="i/github-circleofsafety.jpg"
+      </p>
+	  <p>
+        Github circle of safety, more detailed
+		</p>
+		<p>
+		<img src="i/github-circleofsafety-moretechnical.png"
+      </p>
+
+
+
+    </div>
+  </div>
+</main>
+
+{% endblock %}
+
+
+
+  </body>
+</html>
