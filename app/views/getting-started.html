@@ -34,7 +34,13 @@
 	
 	<!--
 	Linking to an existing heroku app rather than creating a new one: say your friend created an app on heroku but you've been working on the same code directly from github, when it comes time to push from your local repo to github you'll need to:
-git remote add heroku git@heroku.com:YOURAPP.git
+
+NOTE: try this instead:
+
+heroku login
+
+git remote add heroku https://git.heroku.com/mb-prototype-test.git
+
 then you can
 git push heroku
 
