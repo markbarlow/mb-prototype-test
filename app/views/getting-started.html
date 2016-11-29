@@ -33,9 +33,19 @@
         <p>Example set up for us:
 	
 	<!--
-	Linking to an existing heroku app rather than creating a new one: say your friend created an app on heroku but you've been working on the same code directly from github, when it comes time to push from your local repo to github you'll need to:
 
-NOTE: try this instead:
+command line git
+
+# set up git to track the folder
+git init
+
+# link to an empty github repo (which must be created first)
+git remote add origin <repo .git url>
+
+e.g.
+git remote add origin https://github.com/markbarlow/mb-prototype-test.git
+
+Linking to an existing heroku app rather than creating a new one: say your friend created an app on heroku but you've been working on the same code directly from github, when it comes time to push from your local repo to github you'll need to:
 
 heroku login
 
@@ -43,7 +53,6 @@ git remote add heroku https://git.heroku.com/mb-prototype-test.git
 
 then you can:
 git push heroku
-
 
 other useful commands:
 heroku apps:info
