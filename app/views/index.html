@@ -10,40 +10,50 @@
   <div class="grid-row">
     <div class="column-two-thirds">
 
-      <h1 class="heading-xlarge">The GOV.UK prototype kit</h1>
-
+      <h1 class="heading-xlarge">
+        The GOV.UK prototype kit
+        <span class="heading-secondary">{{releaseVersion}}</span>
+      </h1>{{releaseVersion | log }}
       <p>
         This kit lets you rapidly create HTML prototypes of GOV.UK services.
       </p>
 
-    <h2 class="heading-medium">Training</h2>
+      <p>
+        It contains all you need to prototype anything from simple static pages to complex, data-driven transactions.
+      </p>
 
-			<ul class="list list-bullet">
-				<li><a href="getting-started">Prototype intro and github stuff</a></li>
-				<li><a href="demo-start-page">Build a simple site - demo hello goodbye</a></li>
-			</ul>      
+      <h2 class="heading-medium">About this page</h2>
 
-
-      <h2 class="heading-medium">MB test links</h2>
-
-			<ul class="list list-bullet">
-				<li><a href="contact_choice">Branching demo - contact choice examples</a></li>
-				<li><a href="form_post_data">Data capture demo - posting then playing back some form input</a></li>
-				<li><a href="addresses_application">Legalisation - saved addresses compact design, application flow</a></li>
-				<li><a href="addresses_sameordifferent">Legalisation - same or different new design, application flow</a></li>
-				<li><a href="addresses_account">Legalisation - saved addresses compact design, account pages</a></li>
-				<li><a href="maintenance">Legalisation - maintenance page</a></li>
-				<li><a href="verify-apostille-fields">Verify apostille - field formats</a></li>
-			</ul>
+      <p>We recommend you add links to your prototype to this page, rather than delete it.
+        You'll find this page in the kit at '/app/views/index.html'.</p>
+      <p>You can change the service name by editing the file '/app/config.js'.</p>
 
 			<h2 class="heading-medium">Examples and documentation</h2>
 
 			<ul class="list list-bullet">
-				<li><a href="/examples">Example pages and patterns</a></li>
-				<li><a href="https://github.com/alphagov/govuk_prototype_kit/tree/master/docs">
-						Read the full documentation</a></li>
+				<li><a href="/docs/tutorials-and-examples">Example pages and documentation</a></li>
+				<li><a href="https://github.com/alphagov/govuk_prototype_kit">GitHub</a></li>
 			</ul>
 
+      <h2 class="heading-medium">Other resources</h2>
+
+			<ul class="list list-bullet">
+				<li>
+					<a href="https://govuk-elements.herokuapp.com/snippets/">
+						Guide to GOV.UK Elements
+					</a>
+				</li>
+				<li>
+					<a href="https://www.gov.uk/service-manual">
+						Service design manual
+					</a>
+				</li>
+				<li>
+					<a href="https://www.gov.uk/design-principles">
+						Government Digital Service Design Principles
+					</a>
+				</li>
+			</ul>
 
     </div>
   </div>

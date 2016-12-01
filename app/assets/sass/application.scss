@@ -1,24 +1,13 @@
-// Import GOV.UK elements, this will import the frontend toolkit and some base styles.
-// Take a look in _govuk-elements.scss to see which files are imported.
+// Path to assets for use with the file-url function
+// in the govuk frontend toolkit's url-helpers partial
+$path: "/public/images/";
+
+// Import GOV.UK elements from /govuk-modules/, this will import the frontend toolkit and some base styles.
+// Take a look in /govuk-modules/_govuk-elements.scss to see which files are imported.
 @import 'govuk-elements';
 
-// Take a look at patterns.scss to see which files are imported.
-@import 'patterns';
-
-// If you need to create a page as part of your journey, but without GOV.UK branding
-// See localhost:3000/examples/unbranded/
-.unbranded {
-  background: $white;
-  // Use the universal selector and !important to *ALWAYS OVERRIDE* GDS Transport
-  * {
-    font-family: Arial !important;
-  }
-  // Remove GOV.UK footer styles
-  #footer {
-    border: 0;
-    background: $white;
-  }
-}
+// Take a look at in app/assets/sass/patterns/ to see which files are imported.
+@import 'patterns/check-your-answers';
 
 // Related items
 // (These styles will be moved to GOV.UK elements, duplicating here for now.)
@@ -29,7 +18,7 @@
 
   .heading-medium {
     margin-top: 0.3em;
-    margin-bottom: 0.5em
+    margin-bottom: 0.5em;
   }
 
   li {
@@ -39,41 +28,3 @@
 }
 
 // Add extra styles here, or re-organise the Sass files in whichever way makes most sense to you
-
-
-// Customised legalisation secondary and delete buttons
-
-.button-secondary {
-    background-color: #dee0e2;
-    color: #0b0c0c!important;
-    box-shadow: 0 2px 0 #b5babe; }
-
-.button-secondary:visited{
-    background-color: #dee0e2;
-    color: #0b0c0c;
-    box-shadow: 0 2px 0 #b5babe;
-}
-.button-secondary:hover, .button-secondary:focus {
-    background-color: #d0d3d6;
-    color: #0b0c0c;
-    box-shadow: 0 2px 0 #b5babe;
-}
-
-.button-delete {
-    background-color: #b10e1e;
-    color: white!important;
-    box-shadow: 0 2px 0 #000; }
-
-.button-delete:visited{
-    background-color: #b10e1e;
-    color: white!important;
-    box-shadow: 0 2px 0 #000;
-}
-.button-delete:hover, .button-delete:focus {
-    background-color: #6a0812;
-    color: #0b0c0c;
-    box-shadow: 0 2px 0 #000;
-}
-.address-button{
-    width:80px;text-align: center
-}
